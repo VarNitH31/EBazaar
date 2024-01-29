@@ -35,7 +35,7 @@
     text-decoration: none;
     justify-content: center;
   }
-  label {
+ .signupform label {
     color: #fff;
     font-size: 2.3em;
     justify-content: center;

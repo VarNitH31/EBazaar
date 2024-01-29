@@ -40,10 +40,10 @@ const SignUp = () => {
     event.preventDefault();
 
     if (!validateSignUpForm()) {
-      // Prevent form submission if validation fails
+
       console.log("prevented");
     } else {
-      // If validation succeeds, redirect or perform other actions
+    
       try {
         await axios.post('http://localhost:3001/api/signup', signUpFormData);
         console.log('User registered successfully');
@@ -52,7 +52,6 @@ const SignUp = () => {
         console.error('Error registering user:', error);
       }
 
-      // navigate("/");
 
     }
   };
@@ -61,7 +60,7 @@ const SignUp = () => {
     event.preventDefault();
 
     if (!validateLoginForm()) {
-      // Prevent form submission if validation fails
+      
     } else {
 
       navigate("/");
@@ -119,7 +118,7 @@ const SignUp = () => {
       <input type="checkbox" id="chk" aria-hidden="true" />
 
       <div className="signup">
-        <form onSubmit={handleSignUpSubmit}>
+        <form className='signupform' onSubmit={handleSignUpSubmit}>
           <label htmlFor="chk" aria-hidden="true">Sign up</label>
           <input
             type="text"

@@ -10,12 +10,12 @@
   html{
   width: 100vw;
   }
-  body{
+  .homebody{
   width: 100%;
   overflow-x: hidden;
   background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
   }
-  h2{
+  #productgallery{
     font-size: 34px;
     color: aliceblue;
     margin: 22px;

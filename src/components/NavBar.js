@@ -22,24 +22,24 @@ const NavBar = () => {
       </div>
       <nav className="navigation">
         <div>
-          <a href="homepage.html">Home</a>
+          <Link to="/">Home</Link>
         </div>
         <div>
-          <a href="homepage.html#productgallery">Products</a>
+          <a href="/#productgallery">Products</a>
         </div>
         <div>
-          <a href="About.html">About</a>
+          <Link to="/about">About</Link>
         </div>
         <div>
-          <a href="contact.html">Contact</a>
+          <Link to="/contact">Contact</Link>
         </div>
         <Link to="/signup" className="btnlogin-popup">
         Login
       </Link>
         <div className="iconcart">
-          <a href="cartpage.html">
+          <Link to="/cart">
             <ion-icon name="cart-outline"></ion-icon>
-          </a>
+          </Link>
         </div>
       </nav>
     </div>

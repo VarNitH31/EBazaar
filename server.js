@@ -19,8 +19,6 @@ app.post('/api/signup', async (req, res) => {
   try {
     const { userName, email, password } = req.body;
 
-    // Validate input here if needed
-
     const newUser = new User({
       userName,
       email,
@@ -28,7 +26,6 @@ app.post('/api/signup', async (req, res) => {
     });
 
     await newUser.save();
-
     console.log('User registered successfully');
     res.status(201).json({ message: 'User registered successfully' });
   } catch (error) {
@@ -40,3 +37,8 @@ app.post('/api/signup', async (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+
+
+// app.get('/products.json', (req, res) => {
+//   res.sendFile(path.join(__dirname, 'src/components/products.json'));
+// });

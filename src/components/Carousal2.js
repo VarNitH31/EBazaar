@@ -97,12 +97,12 @@ const Carousal2=()=> {
                 <span className="name">Fastrack FS1 pro</span>
                 <span className="price">Rs2,799</span></div>
             </a>
-            <a href="productpages/asusrog.html">
+            <a href="/asusrog">
                 <div className="product"> <img src="https://m.media-amazon.com/images/I/71m7XVxRD-L._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
                    <span className="name">ASUS Rog Strix G15</span>
                    <span className="price">Rs96,990</span></div>
                </a>
-            <a href="productpages/asustuf.html">
+            <a href="/asustuf">
                 <div className="product"> <img src="https://m.media-amazon.com/images/I/71-Fx3Vfq5L._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
                    <span className="name">ASUS TUF Gaming F15</span>
                    <span className="price">Rs76,990</span></div>
@@ -113,9 +113,9 @@ const Carousal2=()=> {
                    <span className="price">Rs59,999</span></div>
                </a>
             <a href="productpages/fastrack.html">
-                <div className="product"> <img src="https://m.media-amazon.com/images/I/613-tICaGQL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-                   <span className="name">Fastrack FS1 pro</span>
-                   <span className="price">Rs2,799</span></div>
+                <div className="product"> <img src="https://m.media-amazon.com/images/I/617yvpfxOpL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
+                   <span className="name">Dell 14</span>
+                   <span className="price">Rs39,990</span></div>
                </a>
             </div>
             </div>

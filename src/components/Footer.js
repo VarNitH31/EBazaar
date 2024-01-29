@@ -4,8 +4,8 @@ import '../cssfiles/footer.css'
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="container">
-        <div className="row">
+      <div className="footercontainer">
+        <div className="footerrow">
           <div className="footer-col-1">
             <span className="icon1">
               <ion-icon name="logo-venmo"></ion-icon>

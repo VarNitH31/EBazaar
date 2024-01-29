@@ -29,19 +29,24 @@ h2 {
     justify-content: space-around;
     
 }
-
 .addform label {
     margin-top: 10px;
 }
-.addform
-input,
-textarea {
+.addform input{
     width: 100%;
     padding: 8px;
     margin-top: 5px;
     margin-bottom: 10px;
     box-sizing: border-box;
 }
+
+.addform textarea{
+    width: 100%;
+    padding: 8px; 
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+} 
 
 .addcontainer .addform button {
     width:100px;

@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.payment-details-container {
+    text-align: center;
+    margin: 50px;
+}
+
+.payment-form{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.payment-form label{
+    display: block;
+    margin-top: 10px;
+}
+
+.payment-form input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.payment-form button{
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    opacity: 0.8;
+ 
+}
+
+.payment-form button:hover {
+    opacity: 1;
+}
+
+#processpaybtn{
+    background-color: green;
+    margin-right: 10px;
+}
+#cancelpaybtn{
+    background-color: red;
+    margin-right: 10px;
+}

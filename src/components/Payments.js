@@ -1,6 +1,6 @@
 import React from 'react'
 import "../cssfiles/payment.css"
-import "../paymentimg/mastercard.jpg"
+
 
 function Payments() {
   return (

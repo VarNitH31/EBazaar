@@ -39,6 +39,3 @@ app.listen(port, () => {
 });
 
 
-// app.get('/products.json', (req, res) => {
-//   res.sendFile(path.join(__dirname, 'src/components/products.json'));
-// });

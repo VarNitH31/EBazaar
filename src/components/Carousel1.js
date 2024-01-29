@@ -47,7 +47,7 @@ const Carousel1 = () => {
 
 
   return (
-    <div>
+    <div className='carousal1body'>
       <div className="button-backwards">
 
       <ion-icon name="chevron-back-outline" id="button-backwards" className="button-backwards" onClick={() => plusSlides(-1)}></ion-icon>

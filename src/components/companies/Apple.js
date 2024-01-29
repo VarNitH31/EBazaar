@@ -14,7 +14,7 @@ function Apple() {
                 <Link to="/1">Apple 2023 MacBook Air laptop with M2 chip: 38.91cm (15.3 inch) Liquid Retina display, 8GB RAM 256GB SSD storage, backlit keyboard, 1080p FaceTime HD camera,Touch ID. Works with iPhone/iPad; Starlight</Link>
                         <p>1000+ brought in past month</p>
                         <h4>Deal of the Day</h4>
-                        <p className="price">&#8377 <strong>1,14,999</strong>  <sub>MRP <s>1,50,000</s> </sub></p>
+                        <p className="price">Rs <strong>1,14,999</strong>  <sub>MRP <s>1,50,000</s> </sub></p>
                         <p> <sub>Save extra with no cost EMI</sub></p>
                 </div>
          </div>
@@ -24,7 +24,7 @@ function Apple() {
                        <Link to="/1"> Apple 2023 MacBook Pro (16-inch, M3 Max chip with 16-core CPU and 40-core GPU, 48GB Unified Memory, 1TB) - Space Black</Link>
                         <p>100+ brought in past month</p>
                         <h4>Deal of the Day</h4>
-                        <p className="price">&#8377 <strong>3,69,990</strong>  <sub>MRP <s>3,99,999</s> </sub></p>
+                        <p className="price">Rs <strong>3,69,990</strong>  <sub>MRP <s>3,99,999</s> </sub></p>
                         <p> <sub>Save extra with no cost EMI</sub></p>
                 </div>
          </div>
@@ -34,7 +34,7 @@ function Apple() {
                        <Link to="/1"> Apple 2023 MacBook Pro (14-inch, M3 Pro chip with 11-core CPU and 14-core GPU, 18GB Unified Memory, 512GB) - Space Black</Link>
                         <p>1000+ brought in past month</p>
                         <h4>Deal of the Day</h4>
-                        <p className="price">&#8377 <strong>1,66,990</strong>  <sub>MRP <s>1,99,990</s> </sub></p>
+                        <p className="price">Rs <strong>1,66,990</strong>  <sub>MRP <s>1,99,990</s> </sub></p>
                         <p> <sub>Save extra with no cost EMI</sub></p>
                 </div>
          </div>
@@ -44,7 +44,7 @@ function Apple() {
                        <Link to="/1"> Apple 2023 MacBook Pro Laptop M2 Pro chip with 12-core CPU and 19-core GPU: 33.74 cm (14.2-inch), 16GB Unified Memory, 1TB SSD Storage. Works with iPhone/iPad; Silver</Link>
                         <p>13+ brought in past month</p>
                         <h4>Deal of the Day</h4>
-                        <p className="price">&#8377 <strong>2,25,999</strong>  <sub>MRP <s>3,15,000</s> </sub></p>
+                        <p className="price">Rs <strong>2,25,999</strong>  <sub>MRP <s>3,15,000</s> </sub></p>
                         <p> <sub>Save extra with no cost EMI</sub></p>
                 </div>
          </div>

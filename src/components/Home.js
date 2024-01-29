@@ -12,7 +12,7 @@ const Home = () => {
 			<NavBar />
 			<Carousel1 />
 			<Categories />
-			<h2 id="productgallery">Product Gallery</h2>
+			<h2  id="productgallery">Product Gallery</h2>
 			<Carousal2 />
 			<Footer />
 			</div>

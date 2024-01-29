@@ -1,18 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
 .prodbody{
     overflow-x: hidden;
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
-html{
-  width: 100vw;
-}
+
 .prodcontainer{
     display: flex;
     flex-direction: column;
@@ -83,6 +74,3 @@ html{
     background-color:#302b63 ;
 }
 
-/* .prodcarthidden{
-    visibility: hidden;
-} */

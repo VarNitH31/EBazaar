@@ -150,8 +150,8 @@ const SignUp = () => {
       </div>
 
       <div className="login">
-        <form onSubmit={handleLoginSubmit}>
-          <label htmlFor="chk" aria-hidden="true">Login</label>
+        <form className='loginform' onSubmit={handleLoginSubmit}>
+          <label htmlFor="chk" aria-hidden="true">Login</label> 
           <input
             type="email"
             name="loginEmail"

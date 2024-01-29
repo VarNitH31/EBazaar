@@ -1,10 +1,10 @@
 import React from 'react'
-import NavBar from './NavBar'
-import Footer from './Footer'
+import NavBar from '../NavBar'
+import Footer from '../Footer'
 import { Link } from 'react-router-dom';
-import { useEffect, useState } from 'react'
 
-function Asusrog({ addToCart }) {
+
+function Firerigel({ addToCart }) {
   
   return (
     <div className='prodbody'>
@@ -25,7 +25,7 @@ function Asusrog({ addToCart }) {
                 144Hz, 4Gb RTX 3050 Gpu, Gaming Laptop (16Gb/1Tb Ssd/Win11/Office 21/2.1 Kg),G513Rc-Hn085Ws
               </h3>
               <br />
-              <h4>&#8377; 96,990</h4>
+              <h4> Rs 96,990</h4>
               <br />
               <input type="number" value="1" />
               <button id="addtocart" onClick={() => addToCart(13)}>
@@ -56,4 +56,4 @@ function Asusrog({ addToCart }) {
   )
 }
 
-export default Asusrog
+export default Firerigel

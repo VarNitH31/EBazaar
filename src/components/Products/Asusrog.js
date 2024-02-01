@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from '../NavBar'
 import Footer from '../Footer'
-import { Link } from 'react-router-dom';
+
 
 
 function Asusrog({ addToCart }) {
@@ -13,7 +13,7 @@ function Asusrog({ addToCart }) {
           <div className="prodrow">
             <div className="prodcol-2">
               <div className="prodimg">
-                <img src="https://m.media-amazon.com/images/I/71m7XVxRD-L._AC_UY327_FMwebp_QL65_.jpg" />
+                <img src="https://m.media-amazon.com/images/I/71m7XVxRD-L._AC_UY327_FMwebp_QL65_.jpg" alt='' />
               </div>
             </div>
             <div className="prodtext">
@@ -25,7 +25,7 @@ function Asusrog({ addToCart }) {
                 144Hz, 4Gb RTX 3050 Gpu, Gaming Laptop (16Gb/1Tb Ssd/Win11/Office 21/2.1 Kg),G513Rc-Hn085Ws
               </h3>
               <br />
-              <h4> &#8377 96,990</h4>
+              <h4> &#8377; 96,990</h4>
               <br />
               <input type="number" value="1" />
               <button id="addtocart" onClick={() => addToCart(13)}>

@@ -10,16 +10,20 @@ import { Link } from "react-router-dom";
 function Cart({ cart: initialcart }) {
 	const [products, setProducts] = useState([]);
 	const [cart, setCart] = useState(initialcart);
-
-    useEffect(() => {
-        axios.get('/products.json')
-          .then(response => {
-            setProducts(response.data);
-          })
-          .catch(error => {
-            console.error('Error fetching data:', error);
-          });
-      }, []);
+    const [totalcost,settotalcost]=useState(0);
+	useEffect(() => {
+		// Fetch products data
+		axios.get('/products.json')
+		  .then(response => {
+			setProducts(response.data);
+		  })
+		  .catch(error => {
+			console.error('Error fetching data:', error);
+		  });
+	  
+		// Calculate and set the total cost
+		settotalcost(calculateTotalCost());
+	  }, [cart, products]);
       
 	const addToCart = (productId) => {
 		window.alert("Product added to cart");
@@ -49,6 +53,7 @@ function Cart({ cart: initialcart }) {
 			const product = products.find((p) => p.id === item.product_id);
 			if (product) {
 				return (
+
 					<div key={item.product_id} className="item">
 						<div className="itemdisplay">
 							<img src={product.image} alt="" />
@@ -80,8 +85,11 @@ function Cart({ cart: initialcart }) {
 		});
 	};
 
+
+
 	const clearCart = () => {
 		setCart([]);
+		settotalcost(0);
 		addCartToMemory();
 		window.alert("Cart Cleared");
 	};
@@ -101,6 +109,18 @@ const handleQuantityChange = (productId, change) => {
 };
 
 
+const calculateTotalCost = () => {
+	let total = 0;
+	cart.forEach((item) => {
+	  const product = products.find((p) => p.id === item.product_id);
+	  if (product) {
+		total += product.price * item.quantity;
+	  }
+	});
+	return total;
+  };
+
+
 	return (
 		<div>
 			<NavBar />
@@ -112,6 +132,9 @@ const handleQuantityChange = (productId, change) => {
 					<span>Quantity</span>
 				</div>
 				<div className="cartlist">{addCartToHTML()}</div>
+			</div>
+			<div className="Totalcost">
+				<p>Total cost: Rs {totalcost} </p>
 			</div>
 			<div className="cartbtn">
 				<div className="clearCart">
@@ -125,6 +148,7 @@ const handleQuantityChange = (productId, change) => {
 					</Link>
 				</div>
 			</div>
+
 			<Footer />
 		</div>
 	);

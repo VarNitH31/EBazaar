@@ -18,7 +18,7 @@ function SamsungZ({ addToCart }) {
             </div>
             <div class="text">
                 <p>Laptops/Electronics</p><br /><br />
-                <h3>Samsung Galaxy Z Fold4 5G (Gold, 12GB RAM, 128GB Storage)
+                <h3>Samsung Galaxy Z Fold4 5G (Gold, 12GB RAM, 128GB Storage)``
                 </h3><br />
                 <h4>Rs 1,29,999</h4><br />
                 <input type="number" value="1"/>

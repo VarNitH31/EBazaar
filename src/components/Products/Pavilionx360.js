@@ -17,7 +17,7 @@ function Pavillionx360({ addToCart }) {
               <img src="https://m.media-amazon.com/images/I/61yI6BW+wbL._AC_UY327_FMwebp_QL65_.jpg" />
                 </div>
             </div>
-            <div class="text">
+            <div className="text">
                 <p>Laptops/Electronics</p><br /><br />
                 <h3>Hp Pavilion X360 11Th Gen Intel Core I3 14 Inches Fhd Multitouch 2-in-1 Laptop(8Gb Ram/512Gb Ssd/B&O/Windows 11 Home/Fpr/Backlit Kb/Pen/Alexa/Uhd Graphics/Ms Office/Natural Silver/1.52Kg) 14-Dy0207Tu</h3><br />
                 <h4>Rs 57,600</h4><br />

@@ -12,7 +12,7 @@ function About() {
     </header>
 
     <main>
-        <h2>Welcome to Vbaazaar</h2>
+        <h2>Welcome to VBazaar</h2>
 
         <p>
             At Vbaazaar, we are passionate about providing high-quality electronic products to our customers.

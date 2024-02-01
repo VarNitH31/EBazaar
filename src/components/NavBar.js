@@ -12,7 +12,7 @@ const NavBar = () => {
           <ion-icon name="logo-venmo"></ion-icon>
         </span>
       </div>
-      <h2 className="ecom">E-COMMERCE</h2>
+      <h2 className="ecom">VBazaar</h2>
       <div className="box">
         <div className="icon2">
           <ion-icon name="search"></ion-icon>

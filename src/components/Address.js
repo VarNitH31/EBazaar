@@ -8,7 +8,7 @@ function Address() {
     const pay = (event) => {
         event.preventDefault();
         navigate('/payment');
-    }
+    }   
 
     return (
         <div className="addbody">

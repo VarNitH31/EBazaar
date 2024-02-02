@@ -72,22 +72,22 @@ const Carousal2=()=> {
                 <span className="name">Macbook air M2</span>
                 <span className="price">Rs1,14,999</span></div>
             </Link>
-         <Link to="/boatheadphones">
+         <Link to="/rockers450">
              <div className="product"> <img src="https://m.media-amazon.com/images/I/51xxA+6E+xL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
                 <span className="name">Boat rockerz 450</span>
                 <span className="price">Rs1,599</span></div>
             </Link>
-         <Link to="/zebronics">
+         <Link to="/zebronicthunder">
              <div className="product"> <img src="https://m.media-amazon.com/images/I/61smYWXWx9L._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
                 <span className="name">Zebronics Thunder</span>
                 <span className="price">Rs799</span></div>
             </Link>
-         <Link to="/noise">
+         <Link to="/noisevs104">
              <div className="product"> <img src="https://m.media-amazon.com/images/I/51apXDsv2CL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
                 <span className="name">Noise Buds VS104</span>
                 <span className="price">Rs1,799</span></div>
             </Link>
-         <Link to="/pebble">
+         <Link to="/pebblecosmos">
              <div className="product"> <img src="https://m.media-amazon.com/images/I/61Jayni-kPL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
                 <span className="name">Pebble Cosmos prime</span>
                 <span className="price">Rs3,899</span></div>
@@ -256,7 +256,7 @@ const Carousal2=()=> {
         <span className="name">Zebronics Thunder</span>
         <span className="price">Rs799</span></div>
     </Link>
- <Link to="/noise">
+ <Link to="/noisevs104">
      <div className="product"> <img src="https://m.media-amazon.com/images/I/51apXDsv2CL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
         <span className="name">Noise Buds VS104</span>
         <span className="price">Rs1,799</span></div>
@@ -266,7 +266,7 @@ const Carousal2=()=> {
         <span className="name">Pebble Cosmos prime</span>
         <span className="price">Rs3,899</span></div>
     </Link>
- <Link to="/fastrack">
+ <Link to="/fastreflex">
      <div className="product"> <img src="https://m.media-amazon.com/images/I/613-tICaGQL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
         <span className="name">Fastrack FS1 pro</span>
         <span className="price">Rs2,799</span></div>

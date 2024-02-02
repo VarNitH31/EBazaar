@@ -12,14 +12,14 @@ function About() {
     </header>
 
     <main>
-        <h2>Welcome to VBazaar</h2>
+        <h2>Welcome to E-Bazaar</h2>
 
         <p>
-            At Vbaazaar, we are passionate about providing high-quality electronic products to our customers.
+            At E-Bazaar, we are passionate about providing high-quality electronic products to our customers.
             entertainment systems, we have it all.
         </p><br/><br/>
         <p>
-            Vbaazaar is guided by four principles: customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking. Vbaazaar strives to be Earth’s most customer-centric company, Earth’s best employer, and Earth’s safest place to work.
+            E-bazaar is guided by four principles: customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking. Vbaazaar strives to be Earth’s most customer-centric company, Earth’s best employer, and Earth’s safest place to work.
         </p><br/><br/>
 
         <p>

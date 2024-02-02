@@ -24,7 +24,7 @@ function Macair({ addToCart }) {
                 <button id="addtocart" onClick={() => addToCart(7)}>
                     ADD TO CART
                     </button>
-                <a href="" className="btn">ADD TO CART</a><br /><br />
+                
                 <h5>Product details</h5><br />
                 <p><b>Brand</b>- Apple<br /><b>Model Name</b> - Macbook Air<br /><b>Screen Size</b>- 13.6 inches<br /><b>Colour</b>- Space Grey<br /><b>Hard Disk Size</b>- 256GB<br /><b>OS</b>- MAC OS</p>
             </div>

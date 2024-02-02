@@ -1,5 +1,6 @@
 import React from 'react';
 import '../cssfiles/categories.css'
+import { Link } from 'react-router-dom';
 
 const Categories = () => {
   return (
@@ -8,27 +9,27 @@ const Categories = () => {
         <h1>HeadPhones</h1>
         <div className="brands">
           <div className="brand-display">
-            <a href="/boat">
+            <Link to="/boat">
               <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/G/31/img22/Wearables/Shop/by/brand/Revised/Creatives/SBB_420X420_2" alt="" />
-            </a>
+            </Link>
             <span>Boat</span>
           </div>
           <div className="brand-display">
-            <a href="/firebolt">
+            <Link to="/firebolt">
               <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/G/31/img22/Wearables/Shop/by/brand/Revised/Creatives/SBB_420X420_1" alt="" />
-            </a>
+            </Link>
             <span>Boult</span>
           </div>
           <div className="brand-display">
-            <a href="/noise">
+            <Link to="/noise">
               <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/G/31/img22/Wearables/Shop/by/brand/Revised/Creatives/SBB_420X420_3" alt="" />
-            </a>
+            </Link>
             <span>Noise</span>
           </div>
           <div className="brand-display">
-            <a href="/zebronics">
+            <Link to="/zebronics">
               <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/G/31/img22/Wearables/Shop/by/brand/Revised/Creatives/SBB_420X420_9" alt="" />
-            </a>
+            </Link>
             <span>Zebronics</span>
           </div>
         </div>
@@ -38,27 +39,27 @@ const Categories = () => {
         <h1>Mobile Phones</h1>
         <div className="brands">
           <div className="brand-display">
-            <a href="/iphone">
+            <Link to="/iphone">
               <img src="https://m.media-amazon.com/images/G/31/img22/Tablets/revamp/Apple" alt="" />
-            </a>
+            </Link>
             <span>IPhone</span>
           </div>
           <div className="brand-display">
-            <a href="/samsung">
+            <Link to="/samsung">
               <img src="https://m.media-amazon.com/images/G/31/img22/Tablets/revamp/samsung" alt="" />
-            </a>
+            </Link>
             <span>Samsung</span>
           </div>
           <div className="brand-display">
-            <a href="/realme">
+            <Link to="/realme">
               <img src="https://m.media-amazon.com/images/G/31/img22/Tablets/revamp/realme" alt="" />
-            </a>
+            </Link>
             <span>Realme</span>
           </div>
           <div className="brand-display">
-            <a href="/oneplus">
+            <Link to="/oneplus">
               <img src="https://m.media-amazon.com/images/G/31/img22/Tablets/revamp/oneplus" alt="" />
-            </a>
+            </Link>
             <span>Oneplus</span>
           </div>
         </div>
@@ -68,27 +69,27 @@ const Categories = () => {
         <h1>Laptops</h1>
         <div className="brands">
           <div className="brand-display">
-            <a href="/dell">
+            <Link to="/dell">
               <img src="https://m.media-amazon.com/images/G/31/img15/zak/lap/brands/Laptop-days-halos_dell" alt="" />
-            </a>
+            </Link>
             <span>Dell</span>
           </div>
           <div className="brand-display">
-            <a href="/apple">
+            <Link to="/apple">
               <img src="https://m.media-amazon.com/images/G/31/img15/zak/lap/brands/Laptop-days-halos_Apple" alt="" />
-            </a>
+            </Link>
             <span>Mac</span>
           </div>
           <div className="brand-display">
-            <a href="/asus">
+            <Link to="/asus">
               <img src="https://m.media-amazon.com/images/G/31/img15/zak/lap/brands/Laptop-days-halos_asus" alt="" />
-            </a>
+            </Link>
             <span>ASUS</span>
           </div>
           <div className="brand-display">
-            <a href="/hp">
+            <Link to="/hp">
               <img src="https://m.media-amazon.com/images/G/31/img15/zak/lap/brands/Laptop-days-halos_hp" alt="" />
-            </a>
+            </Link>
             <span>HP</span>
           </div>
         </div>
@@ -98,27 +99,27 @@ const Categories = () => {
         <h1>Smart watches</h1>
         <div className="brands">
           <div className="brand-display">
-            <a href="/fastrack">
+            <Link to="/fastrack">
               <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/G/31/img22/Wearables/Shop/by/brand/revised/creatives/SBB/Fastrack_1" alt="" />
-            </a>
+            </Link>
             <span>Fastrack</span>
           </div>
           <div className="brand-display">
-            <a href="/ptron">
+            <Link to="/ptron">
               <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/G/31/img22/Wearables/Shop/by/brand/Revised/Creatives/SBB_420X420_7" alt="" />
-            </a>
+            </Link>
             <span>Ptron</span>
           </div>
           <div className="brand-display">
-            <a href="/pebble">
+            <Link to="/pebble">
               <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/G/31/img22/Wearables/Shop/by/brand/Revised/Creatives/SBB_420X420_12" alt="" />
-            </a>
+            </Link>
             <span>Pebble</span>
           </div>
           <div className="brand-display">
-            <a href="/amazfit">
+            <Link to="/amazfit">
               <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/G/31/img22/Wearables/Shop/by/brand/Revised/Creatives/SBB_420X420_6" alt="" />
-            </a>
+            </Link>
             <span>Amazefit</span>
           </div>
         </div>

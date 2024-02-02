@@ -9,7 +9,7 @@ function Contact() {
         <NavBar/>
           <section class="contact">
         <div class="contact-content">
-            <h2>Welcome to VBazaar Customer Service</h2><br/>
+            <h2>Welcome to E-Bazaar Customer Service</h2><br/>
             <p>What would you like help with today? You can quickly take care of most things here, or connect with us when needed.
             </p>
         </div>
@@ -33,7 +33,7 @@ function Contact() {
                     <div class="contact-icon"><ion-icon name="mail-outline"></ion-icon></div>
                     <div class="contact-text">
                         <h3>Email</h3>
-                        <p>Vbazaar2024@gmail.com</p>
+                        <p>ebazaar2024@gmail.com</p>
                     </div>
                 </div>
             </div>

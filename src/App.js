@@ -23,28 +23,28 @@ import Zebronics from './components/companies/Zebronics';
 import Samsung from './components/companies/Samsung';
 import Noise from './components/companies/Noise';
 import Iphone from './components/companies/Iphone';
+import Fastrack from './components/companies/Fastrack';
+import Oneplus from './components/companies/Oneplus';
+import Pebble from './components/companies/Pebble';
+
 import About from './components/About';
 import Contact from './components/Contact';
 
-import Samsung21 from './components/Products/Samsung21';
-import Ptron2 from './components/Products/Ptron2';
-import Ptron1 from './components/Products/Ptron1';
+
 import Pavillionx360 from './components/Products/Pavilionx360';
 import NoiseVs104 from './components/Products/NoiseVs104';
-import Noisebud from './components/Products/Noisebud';
 import Macpro from './components/Products/Macpro';
 import Macair from './components/Products/Macair';
-import Hp14 from './components/Products/Hp14';
-import Firevega from './components/Products/Firevega';
-import Firerigel from './components/Products/Firerigel';
 import Fastreflex from './components/Products/Fastreflex';
-import Fastinvoke from './components/Products/Fastinvoke';
 import Dellg15 from './components/Products/Dellg15';
 import Dell14 from './components/Products/Dell14';
-import Boat551 from './components/Products/Boat551';
-import Boat450 from './components/Products/Boat450';
 import SamsungZ from './components/Products/SamsungZ';
-import Fastrack from './components/companies/Fastrack';
+import Oneplus11r from './components/Products/Oneplus11r';
+import Pebblecosmos from './components/Products/Pebblecosmos';
+import Zebronicthunder from './components/Products/Zebronicthunder.JS';
+import Iphone14 from './components/Products/Iphone14';
+import Rockerz450 from './components/Products/Rockerz450';
+
 
 
 
@@ -90,6 +90,8 @@ function App() {
         <Route path='/ptron' element={<Ptron/>}/>
         <Route path='/firebolt' element={<Fire/>}/>
         <Route path='/fastrack' element={<Fastrack/>}/>
+        <Route path='/oneplus' element={<Oneplus/>}/>
+        <Route path='/pebble' element={<Pebble/>}/>
         
         
         <Route path='/cart' element={<Cart cart={cart}/>}/>
@@ -104,27 +106,30 @@ function App() {
 
         <Route path='/asustuf' element={<Asustuf addToCart={addToCart}/>}/>
         <Route path='/asusrog' element={<Asusrog addToCart={addToCart}/>}/>
+
         <Route path='/samsungz' element={<SamsungZ addToCart={addToCart}/>}/>
-    
-        <Route path='/samsung21' element={<Samsung21 addToCart={addToCart}/>}/>
-        <Route path='/ptron2' element={<Ptron2 addToCart={addToCart}/>}/>
-        <Route path='/ptron1' element={<Ptron1 addToCart={addToCart}/>}/>
+
         <Route path='/pavillionx360' element={<Pavillionx360 addToCart={addToCart}/>}/>
+
         <Route path='/noisevs104' element={<NoiseVs104 addToCart={addToCart}/>}/>
-        <Route path='/noisebud' element={<Noisebud addToCart={addToCart}/>}/>
+
         <Route path='/macpro' element={<Macpro addToCart={addToCart}/>}/>
         <Route path='/macair' element={<Macair addToCart={addToCart}/>}/>
-        <Route path='/hp14' element={<Hp14 addToCart={addToCart}/>}/>
-        <Route path='/firevega' element={<Firevega addToCart={addToCart}/>}/>
-        <Route path='/firerigel' element={<Firerigel addToCart={addToCart}/>}/>
+
         <Route path='/fastreflex' element={<Fastreflex addToCart={addToCart}/>}/>
-        <Route path='/fastinvoke' element={<Fastinvoke addToCart={addToCart}/>}/>
+
         <Route path='/dellg15' element={<Dellg15 addToCart={addToCart}/>}/>
         <Route path='/dell14' element={<Dell14 addToCart={addToCart}/>}/>
-        <Route path='/boat551' element={<Boat551 addToCart={addToCart}/>}/>
-        <Route path='/boat450' element={<Boat450 addToCart={addToCart}/>}/>
 
+        <Route path='/oneplus11r' element={<Oneplus11r addToCart={addToCart}/>}/>
 
+        <Route path='/pebblecosmos' element={<Pebblecosmos addToCart={addToCart}/>}/>
+
+        <Route path='/zebronicthunder' element={<Zebronicthunder addToCart={addToCart}/>}/>
+
+        <Route path='/iphone14' element={<Iphone14 addToCart={addToCart}/>}/>
+
+        <Route path='/rockers450' element={<Rockerz450 addToCart={addToCart}/>}/>
 
       </Routes>
     </Router>

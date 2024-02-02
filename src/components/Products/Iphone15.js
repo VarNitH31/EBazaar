@@ -1,11 +1,10 @@
 import React from 'react'
 import NavBar from '../NavBar'
 import Footer from '../Footer'
-import '../../cssfiles/productpage.css'
+import { Link } from 'react-router-dom';
 
 
-
-function SamsungZ({ addToCart }) {
+function Iphone15({ addToCart }) {
   
   return (
     <div className='prodbody'>
@@ -14,21 +13,21 @@ function SamsungZ({ addToCart }) {
           <div className="prodrow">
             <div className="prodcol-2">
               <div className="prodimg">
-              <img src="https://m.media-amazon.com/images/I/714QNdK8BWL._AC_UY327_FMwebp_QL65_.jpg" />
+              <img src="https://m.media-amazon.com/images/I/31Q14qzdoZL._SY445_SX342_QL70_FMwebp_.jpg" />
                 </div>
             </div>
             <div class="prodtext">
                 <p>Laptops/Electronics</p><br /><br />
-                <h3>Samsung Galaxy Z Fold4 5G (Gold, 12GB RAM, 128GB Storage)``
+                <h3>Apple iPhone 15 (128 GB) - Gold
                 </h3><br />
-                <h4>Rs 1,29,999</h4><br />
+                <h4>&#8377 72,990</h4><br />
                 <input type="number" value="1"/>
-                <button id="addtocart" onClick={() => addToCart(3)}>
+                <button id="addtocart" onClick={() => addToCart(13)}>
                 ADD TO CART
               </button>
-               <br /><br />
+
                 <h5>Product details</h5><br />
-                <p><b>Brand</b>- Samsung<br /><b>Model Name</b> - Samsung Galaxy Z Fold4 <br /><b>Screen Size</b>- 6.2 inches<br /><b>Colour</b>- Gold<br /><b>Cellular Technology</b>- 5G<br /><b>OS</b>- Android 12.0</p>
+                <p><b>Brand</b>- Apple<br /><b>Model Name</b> - Iphone 14 pro<br /><b>Screen Size</b>- 6.2 inches<br /><b>Colour</b>- Gold<br /><b>Cellular Technology</b>- 5G<br /><b>OS</b>- iOS</p>
             </div>
         </div>
     </div>
@@ -37,4 +36,4 @@ function SamsungZ({ addToCart }) {
   )
 }
 
-export default SamsungZ
+export default Iphone15

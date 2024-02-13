@@ -12,7 +12,6 @@ function Cart({ cart: initialcart }) {
 	const [cart, setCart] = useState(initialcart);
     const [totalcost,settotalcost]=useState(0);
 	useEffect(() => {
-		// Fetch products data
 		axios.get('/products.json')
 		  .then(response => {
 			setProducts(response.data);
@@ -21,7 +20,6 @@ function Cart({ cart: initialcart }) {
 			console.error('Error fetching data:', error);
 		  });
 	  
-		// Calculate and set the total cost
 		settotalcost(calculateTotalCost());
 	  }, [cart, products]);
       
@@ -41,12 +39,9 @@ function Cart({ cart: initialcart }) {
 			setCart(updatedCart);
 		}
 
-		addCartToMemory();
+	
 	};
 
-	const addCartToMemory = () => {
-		localStorage.setItem("cart", JSON.stringify(cart));
-	};
 
 	const addCartToHTML = () => {
 		return cart.map((item) => {
@@ -90,7 +85,6 @@ function Cart({ cart: initialcart }) {
 	const clearCart = () => {
 		setCart([]);
 		settotalcost(0);
-		addCartToMemory();
 		window.alert("Cart Cleared");
 	};
 
@@ -105,7 +99,7 @@ const handleQuantityChange = (productId, change) => {
     .filter((item) => item.quantity > 0); // Filter out items with quantity 0
 
   setCart(updatedCart);
-  addCartToMemory();
+  
 };
 
 

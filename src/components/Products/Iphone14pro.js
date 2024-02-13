@@ -1,10 +1,10 @@
 import React from 'react'
 import NavBar from '../NavBar'
 import Footer from '../Footer'
-import { Link } from 'react-router-dom';
 
 
-function Iphone14({ addToCart }) {
+
+function Iphone14pro({ addToCart }) {
   
   return (
     <div className='prodbody'>
@@ -13,14 +13,14 @@ function Iphone14({ addToCart }) {
           <div className="prodrow">
             <div className="prodcol-2">
               <div className="prodimg">
-              <img src="https://m.media-amazon.com/images/I/31wacBawB3L._SY445_SX342_QL70_FMwebp_.jpg"/>
+              <img src="https://m.media-amazon.com/images/I/71ZDY57yTQL._SX679_.jpg"/>
                 </div>
             </div>
-            <div class="prodtext">
+            <div className="prodtext">
                 <p>Laptops/Electronics</p><br /><br />
-                <h3>Apple iPhone 14  (128 GB) - Gold
+                <h3>Apple iPhone 14 Pro (128 GB) - Gold
                 </h3><br />
-                <h4>&#8377 58,990</h4><br />
+                <h4>Rs1,29,999</h4><br />
                 <input type="number" value="1"/>
                 <button id="addtocart" onClick={() => addToCart(1)}>
                 ADD TO CART
@@ -32,8 +32,8 @@ function Iphone14({ addToCart }) {
         </div>
     </div>
         <Footer/>
-      </div>
+      </div>    
   )
 }
 
-export default Iphone14
+export default Iphone14pro

@@ -35,7 +35,7 @@ const Carousal2=()=> {
         <div className="carousel-slide">
             <div className="productdisplay">
                
-            <Link to="/iphone14">
+            <Link to="/i14pro">
              <div className="product">
                  <img src=" https://m.media-amazon.com/images/I/71ZDY57yTQL._AC_UL480_FMwebp_QL65_.jpg" alt=""/>
                  <span className="name">Iphone 14 pro</span>

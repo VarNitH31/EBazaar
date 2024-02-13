@@ -24,8 +24,11 @@ const NavBar = () => {
         <div>
           <Link to="/">Home</Link>
         </div>
-        <div>
+        {/* <div>
           <a href="/#productgallery">Products</a>
+        </div> */}
+        <div>
+          <Link to="/carousal2">Products</Link>
         </div>
         <div>
           <Link to="/about">About</Link>

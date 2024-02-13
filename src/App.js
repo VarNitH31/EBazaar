@@ -44,6 +44,8 @@ import Pebblecosmos from './components/Products/Pebblecosmos';
 import Zebronicthunder from './components/Products/Zebronicthunder.JS';
 import Iphone14 from './components/Products/Iphone14';
 import Rockerz450 from './components/Products/Rockerz450';
+import Iphone14pro from './components/Products/Iphone14pro';
+import Carousal2 from './components/Carousal2';
 
 
 
@@ -76,6 +78,7 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/carousal2" element={<Carousal2 />} />
         
 
         <Route path='/asus' element={<Asus/>}/>
@@ -128,6 +131,7 @@ function App() {
         <Route path='/zebronicthunder' element={<Zebronicthunder addToCart={addToCart}/>}/>
 
         <Route path='/iphone14' element={<Iphone14 addToCart={addToCart}/>}/>
+        <Route path='/i14pro' element={<Iphone14pro addToCart={addToCart}/>}/>
 
         <Route path='/rockers450' element={<Rockerz450 addToCart={addToCart}/>}/>
 

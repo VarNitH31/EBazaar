@@ -80,8 +80,6 @@ function Cart({ cart: initialcart }) {
 		});
 	};
 
-
-
 	const clearCart = () => {
 		setCart([]);
 		settotalcost(0);

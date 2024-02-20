@@ -134,7 +134,6 @@ function App() {
         <Route path='/i14pro' element={<Iphone14pro addToCart={addToCart}/>}/>
 
         <Route path='/rockers450' element={<Rockerz450 addToCart={addToCart}/>}/>
-
       </Routes>
     </Router>
   );

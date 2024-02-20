@@ -5,6 +5,7 @@
   
   .carousal1body{
     overflow: hidden;
+    position: relative;
   }
   .carousel {
     width: 100vw;

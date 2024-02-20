@@ -61,7 +61,7 @@ const Carousel1 = () => {
             <img src="https://m.media-amazon.com/images/G/31/imgg/boat/katana/blade/30th/nov/1500x300" alt="" />
           </li>
           <li className="carousel_slide fade">
-            <img src="https://m.media-amazon.com/images/G/31/img23/Wireless/Samsung/SamsungM/Cathero/M34/D85723568_INWLD-WLD-Samsung-M34-NewLaunch_catpage_1400x800_3" alt="" />
+            <img src="https://m.media-amazon.com/images/G/31/img21/Apple_series9/pre1500x300._CB578159357_.jpg" alt="" />
           </li>
           <li className="carousel_slide fade">
             <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Wireless/OnePlus/Flagship/OP12_NewLaunch/Teaser/LP/PC/OP12_LP_DT_1.jpg" alt="" />

@@ -7,7 +7,14 @@ import { Link } from "react-router-dom";
 
 
 
-function Cart({ cart: initialcart }) {
+function Cart({ cart: initialcart, updateCart }) {
+
+	const handleCartUpdate = (newCart) => {
+		updateCart(newCart); 
+	  };
+
+
+
 	const [products, setProducts] = useState([]);
 	const [cart, setCart] = useState(initialcart);
     const [totalcost,settotalcost]=useState(0);
@@ -23,22 +30,25 @@ function Cart({ cart: initialcart }) {
 		settotalcost(calculateTotalCost());
 	  }, [cart, products]);
       
-	const addToCart = (productId) => {
+	  const addToCart = (productId) => {
+		console.log(cart);
 		window.alert("Product added to cart");
 		let positionThisProductInCart = cart.findIndex(
 			(value) => value.product_id === productId
 		);
-
+	
 		if (cart.length <= 0) {
 			setCart([{ product_id: productId, quantity: 1 }]);
 		} else if (positionThisProductInCart < 0) {
-			setCart([...cart, { product_id: productId, quantity: 1 }]);
+			const updatedCart = [...cart, { product_id: productId, quantity: 1 }];
+			setCart(updatedCart);
+			handleCartUpdate(updatedCart);
 		} else {
 			const updatedCart = [...cart];
 			updatedCart[positionThisProductInCart].quantity += 1;
 			setCart(updatedCart);
+			handleCartUpdate(updatedCart);
 		}
-
 	
 	};
 
@@ -82,6 +92,7 @@ function Cart({ cart: initialcart }) {
 
 	const clearCart = () => {
 		setCart([]);
+		handleCartUpdate([]);
 		settotalcost(0);
 		window.alert("Cart Cleared");
 	};
@@ -97,7 +108,7 @@ const handleQuantityChange = (productId, change) => {
     .filter((item) => item.quantity > 0); // Filter out items with quantity 0
 
   setCart(updatedCart);
-  
+  handleCartUpdate(updatedCart);
 };
 
 

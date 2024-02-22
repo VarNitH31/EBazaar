@@ -69,7 +69,9 @@ function App() {
       setCart(updatedCart);
     }
   };
-
+  const updateCart = (newCart) => {
+    setCart(newCart);
+  };
 
   return (
 <Router>
@@ -97,7 +99,7 @@ function App() {
         <Route path='/pebble' element={<Pebble/>}/>
         
         
-        <Route path='/cart' element={<Cart cart={cart}/>}/>
+        <Route path='/cart' element={<Cart cart={cart} updateCart={updateCart}/>}/>
         
         <Route path='/address' element={<Address/>}/>
 

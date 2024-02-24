@@ -47,10 +47,6 @@ import Rockerz450 from './components/Products/Rockerz450';
 import Iphone14pro from './components/Products/Iphone14pro';
 import Carousal2 from './components/Carousal2';
 
-
-
-
-
 function App() {
    
   const [cart, setCart] = useState([]);

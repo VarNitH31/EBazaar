@@ -118,7 +118,7 @@ const Categories = () => {
           </div>
           <div className="brand-display">
             <Link to="/amazfit">
-              <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/G/31/img22/Wearables/Shop/by/brand/Revised/Creatives/SBB_420X420_6" alt="" />
+              <img src="https://m.media-amazon.com/images/G/31/img21/Amazfit_active_24/400X400_Amazfit._CB582339095_.jpg" alt="" />
             </Link>
             <span>Amazefit</span>
           </div>

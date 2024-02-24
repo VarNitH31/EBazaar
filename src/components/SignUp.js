@@ -56,15 +56,33 @@ const SignUp = () => {
     }
   };
 
-  const handleLoginSubmit = (event) => {
+  const handleLoginSubmit = async (event) => {
     event.preventDefault();
-
+  
     if (!validateLoginForm()) {
+      return;
+    }
+  
+    try {
+        const response = await axios.post('http://localhost:3001/api/login', {
+          email: loginFormData.loginEmail,
+          password: loginFormData.loginPassword
+        });
+    
+        let loginresponse=response.data;
+          console.log(loginresponse);
+        if (loginresponse.value) {
+          console.log("successfully verified");
+          navigate("/");
+
+        }
+        else{
+          alert(loginresponse.error);
+        }
+   
       
-    } else {
-
-      navigate("/");
-
+    } catch (error) {
+      console.error('Error logging in reaact :', error);
     }
   };
 
@@ -101,8 +119,6 @@ const SignUp = () => {
       alert('Password must contain at least one symbol, one number, one capital letter, and be at least 8 characters long');
       return false;
     }
-
-    // Add more validation logic if needed
 
     return true;
   };

@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "../cssfiles/navbar.css";
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import { useState} from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { useHistory } from "react";
 
 const pages = [
     { name: "Home", url: "/" },
@@ -26,7 +27,7 @@ const pages = [
 ];
 
 const NavBar = () => {
-
+		const navigate = useNavigate();
 
 	const [searchResults, setSearchResults] = useState([]);
 
@@ -68,8 +69,8 @@ const NavBar = () => {
 					<div>
 						<Link to="/">Home</Link>
 					</div>
-					<div>
-						<Link to="/carousal2">Products</Link>
+					<div >
+					<Link to="/arousal2">Products</Link>
 					</div>
 					<div>
 						<Link to="/about">About</Link>

@@ -23,7 +23,6 @@ mongoose.connect('mongodb://localhost:27017/UserData', {
 app.post('/api/address', async (req,res)=>{
   
   try {
-    console.log
     const{fullName,city,address,zipCode,cart}=req.body;
 
     const newAddress= new Address({
@@ -92,7 +91,7 @@ app.post('/api/signup', async (req, res) => {
 app.post('/api/login', async (req, res) => {
   try {
     const { email, password } = req.body;
-    // Find user by email
+    
     console.log(req.body);
     const user = await User.findOne({ email });
     
@@ -100,13 +99,12 @@ app.post('/api/login', async (req, res) => {
       console.log("user is not found");
       return res.json({  value:0 ,  error: 'User not found' });
     }
-    // Check if password matches
+   
     if (user.password !== password) {
       console.log("password is not matched")
       return res.json({ value:0,  error: 'Invalid password' });
     }
 
-    // If email and password are correct, return success message
     res.json({ value:1,   message: 'Login successful' });
   } catch (error) {
     console.error('Error logging in:', error);

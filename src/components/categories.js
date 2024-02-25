@@ -10,25 +10,25 @@ const Categories = () => {
         <div className="brands">
           <div className="brand-display">
             <Link to="/boat">
-              <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/G/31/img22/Wearables/Shop/by/brand/Revised/Creatives/SBB_420X420_2" alt="" />
+              <img src="https://m.media-amazon.com/images/G/31/img15/on/ear/9thfeb/1_Logos_300x300._CB613858792_.jpg" alt="" />
             </Link>
             <span>Boat</span>
           </div>
           <div className="brand-display">
             <Link to="/firebolt">
-              <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/G/31/img22/Wearables/Shop/by/brand/Revised/Creatives/SBB_420X420_1" alt="" />
+              <img src="https://m.media-amazon.com/images/G/31/img15/on/ear/9thfeb/4_Logos_300x300._CB613858792_.jpg" alt="" />
             </Link>
             <span>Boult</span>
           </div>
           <div className="brand-display">
             <Link to="/noise">
-              <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/G/31/img22/Wearables/Shop/by/brand/Revised/Creatives/SBB_420X420_3" alt="" />
+              <img src="https://m.media-amazon.com/images/G/31/img15/on/ear/9thfeb/10_Logos_300x300._CB613858792_.jpg" alt="" />
             </Link>
             <span>Noise</span>
           </div>
           <div className="brand-display">
             <Link to="/zebronics">
-              <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/G/31/img22/Wearables/Shop/by/brand/Revised/Creatives/SBB_420X420_9" alt="" />
+              <img src="https://m.media-amazon.com/images/G/31/img15/on/ear/9thfeb/11_Logos_300x300._CB613858792_.jpg" alt="" />
             </Link>
             <span>Zebronics</span>
           </div>
@@ -100,25 +100,25 @@ const Categories = () => {
         <div className="brands">
           <div className="brand-display">
             <Link to="/fastrack">
-              <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/G/31/img22/Wearables/Shop/by/brand/revised/creatives/SBB/Fastrack_1" alt="" />
+              <img src="https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/f/AmazonStores/A21TJRUUN4KGV/79c47a3000c83a7295f4453bfda74ea1.w480.h480._CR0%2C0%2C480%2C480_SX200_.png" alt="" />
             </Link>
             <span>Fastrack</span>
           </div>
           <div className="brand-display">
             <Link to="/ptron">
-              <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/G/31/img22/Wearables/Shop/by/brand/Revised/Creatives/SBB_420X420_7" alt="" />
+              <img src="https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/b/AmazonStores/A21TJRUUN4KGV/45d666d8cb1e56a2f308ffdade939b94.w1080.h1080._CR0%2C0%2C1080%2C1080_SX200_.jpg" alt="" />
             </Link>
             <span>Ptron</span>
           </div>
           <div className="brand-display">
             <Link to="/pebble">
-              <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/G/31/img22/Wearables/Shop/by/brand/Revised/Creatives/SBB_420X420_12" alt="" />
+              <img src="https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/9/AmazonStores/A21TJRUUN4KGV/200beb8cbb7404b8a44c16d384ec2a36.w400.h400._CR0%2C0%2C400%2C400_SX200_.jpg" alt="" />
             </Link>
             <span>Pebble</span>
           </div>
           <div className="brand-display">
             <Link to="/amazfit">
-              <img src="https://m.media-amazon.com/images/G/31/img21/Amazfit_active_24/400X400_Amazfit._CB582339095_.jpg" alt="" />
+              <img src="https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/4/AmazonStores/A21TJRUUN4KGV/8adf21c5c9b3581bc1feb44a6abcd89b.w400.h400._CR0%2C0%2C400%2C400_SX200_.jpg" alt="" />
             </Link>
             <span>Amazefit</span>
           </div>

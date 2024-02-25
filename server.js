@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const User = require('./models/userSchema'); // Note: No need for ".js" extension
 const Contact = require('./models/contactSchema');
+const Address=require('./models/addressSchema');
 
 
 const app = express();
@@ -18,6 +19,33 @@ mongoose.connect('mongodb://localhost:27017/UserData', {
 });
 
 // Sign up route
+
+app.post('/api/address', async (req,res)=>{
+  
+  try {
+    console.log
+    const{fullName,city,address,zipCode,cart}=req.body;
+
+    const newAddress= new Address({
+      fullName,
+      city,
+      address,
+      zipCode,
+      cart
+    });
+
+    await newAddress.save();
+    console.log("Address registered");
+    res.status(201).json({ message: 'Address registered successfully' });
+
+  } catch (error) {
+    console.error('Error saving address:', error);
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
+})
+
+
+
 
 app.post('/api/contact',async (req,res)=>{
  try{

@@ -97,7 +97,7 @@ function App() {
         
         <Route path='/cart' element={<Cart cart={cart} updateCart={updateCart}/>}/>
         
-        <Route path='/address' element={<Address/>}/>
+        <Route path='/address' element={<Address cart={JSON.stringify(cart)}  />}/>
 
         <Route path='/payment' element={<Payments/>}/>
 

@@ -3,12 +3,12 @@ import "../cssfiles/cart.css";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 import axios from "axios";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 
 
 function Cart({ cart: initialcart, updateCart }) {
-
+    const navigate=useNavigate();
 	const handleCartUpdate = (newCart) => {
 		updateCart(newCart); 
 	  };
@@ -124,6 +124,15 @@ const calculateTotalCost = () => {
   };
 
 
+  const placeOrder=()=>{
+	if (cart.length>0) {
+		navigate('/address');
+	}
+	else{
+		alert("The cart is empty");
+	}
+  }
+
 	return (
 		<div>
 			<NavBar />
@@ -146,9 +155,9 @@ const calculateTotalCost = () => {
 					</button>
 				</div>
 				<div className="placeorder">
-					<Link to="/address">
-						<button className="orderbtn">Place Order</button>
-					</Link>
+					{/* <Link to="/address"> */}
+						<button onClick={placeOrder} className="orderbtn">Place Order</button>
+					{/* </Link> */}
 				</div>
 			</div>
 

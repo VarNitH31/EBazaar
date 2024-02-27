@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../cssfiles/signup.css';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 
 
@@ -13,6 +14,7 @@ const SignUp = () => {
     userName: '',
     email: '',
     password: '',
+    recaptchaChecked:false,
   });
 
   const [loginFormData, setLoginFormData] = useState({
@@ -38,6 +40,11 @@ const SignUp = () => {
 
   const handleSignUpSubmit =async (event) => {
     event.preventDefault();
+
+    if (!signUpFormData.recaptchaChecked) {
+      alert('Please confirm you are not a bot.');
+      return;
+    }
 
     if (!validateSignUpForm()) {
 
@@ -128,6 +135,13 @@ const SignUp = () => {
     return passwordRegex.test(password);
   };
 
+  const handleRecaptchaChange = () => {
+    setSignUpFormData({
+      ...signUpFormData,
+      recaptchaChecked: true,
+    });
+  };
+
   return (
     <div className="signupbody">
     <div className="signupmain">
@@ -160,6 +174,7 @@ const SignUp = () => {
             onChange={(e) => handleInputChange(e, 'signup')}
             required
           />
+          <ReCAPTCHA className='recaptcha' onChange={handleRecaptchaChange} sitekey="6LfJg4ApAAAAACm8T15x5axYpmFk7b0QG2M-xh9_" />
           <button type="submit">Sign up</button>
           <a onClick={handleAlreadyHaveAccountClick}>already have an account?</a>
         </form>

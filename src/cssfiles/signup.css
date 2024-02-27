@@ -9,12 +9,17 @@
   background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
 }
 
+
+.recaptcha{
+margin-left: 22px;
+}
+
 a:hover{
   cursor: pointer;
 }
 .signupmain {
   width: 350px;
-  height: 500px;
+  height: 600px;
   background: red;
   overflow: hidden;
   background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
@@ -117,7 +122,7 @@ a:hover{
   background: #6d44b8;
 }
 .login {
-  height: 460px;
+  height: 560px;
   background: #eee;
   border-radius: 60% / 10%;
   transform: translateY(-180px);
@@ -129,7 +134,7 @@ a:hover{
 }
 
 #chk:checked ~ .login {
-  transform: translateY(-500px);
+  transform: translateY(-600px);
 }
 #chk:checked ~ .login label {
   transform: scale(1);

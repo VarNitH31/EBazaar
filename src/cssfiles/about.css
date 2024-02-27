@@ -2,12 +2,11 @@
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
-
+    background: white;
 }
 
 .aboutbod header {
-    color: #fff;
+    color: black;
     text-align: center;
     padding: 2em;
 }
@@ -19,13 +18,13 @@
 }
 
 .aboutbod main h2 {
-    color:#fff;
+    color:black;
     left: 0;
 }
 
 .aboutbod main p {
     line-height: 1.6;
-    color:#fff;
+    color:black;
 }
 
 .aboutbod main img {

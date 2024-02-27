@@ -13,7 +13,7 @@ const port = process.env.PORT || 3001;
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb://localhost:27017/UserData', {
+mongoose.connect('mongodb+srv://varnith:Varnith%40123@ecommerce.0hrtfgs.mongodb.net/?retryWrites=true&w=majority&appName=Ecommerce/UserData', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });

@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../cssfiles/navbar.css";
 import { useState} from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { useHistory } from "react";
+
 
 const pages = [
     { name: "Home", url: "/" },
@@ -26,8 +26,19 @@ const pages = [
 
 ];
 
-const NavBar = () => {
-		const navigate = useNavigate();
+const NavBar = (isLogged,updateLogged) => {
+	console.log({isLogged});
+	const [log, setlog] = useState("Login")
+	const handleLogClick=()=>{
+		if({isLogged}){
+			setlog("Logout");
+		}
+		else{
+			setlog("Login");
+		}
+	}
+
+
 
 	const [searchResults, setSearchResults] = useState([]);
 
@@ -69,17 +80,14 @@ const NavBar = () => {
 					<div>
 						<Link to="/">Home</Link>
 					</div>
-					<div >
-					<Link to="/arousal2">Products</Link>
-					</div>
 					<div>
 						<Link to="/about">About</Link>
 					</div>
 					<div>
 						<Link to="/contact">Contact</Link>
 					</div>
-					<Link to="/signup" className="btnlogin-popup">
-						Login
+					<Link to="/signup" className="btnlogin-popup" onClick={handleLogClick}   >
+						{log}
 					</Link>
 					<div className="iconcart">
 						<Link to="/cart">

@@ -2,7 +2,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const User = require('./models/userSchema'); // Note: No need for ".js" extension
+const User = require('./models/userSchema'); 
 const Contact = require('./models/contactSchema');
 const Address=require('./models/addressSchema');
 

@@ -55,7 +55,10 @@ const Carousel1 = () => {
       <div className="poster">
         <ul className="carousel"  ref={slidesRef}>
           <li className="carousel_slide fade">
-            <img src="https://m.media-amazon.com/images/G/31/img22/Laptops/Smartchoice/Laptops/Header/Revised/sep_1500x300" alt="" />
+            <img src="https://m.media-amazon.com/images/G/31/img15/zak/24/asusrog/1500-x-300._CB582877855_.jpg" alt="" />
+          </li>
+          <li className="carousel_slide fade">
+            <img src="https://m.media-amazon.com/images/G/31/img24hp/jbl/1500-X-300-CATEGORY--JBL-WAVE-FLEX._CB581268560_.gif" alt="" />
           </li>
           <li className="carousel_slide fade">
             <img src="https://m.media-amazon.com/images/G/31/imgg/boat/katana/blade/30th/nov/1500x300" alt="" />

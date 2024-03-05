@@ -69,11 +69,18 @@ function App() {
     setCart(newCart);
   };
 
+  const [isLogged, setIsLogged] = useState(0);
+
+  const updateLogged=(item)=>{
+    setIsLogged(item);
+  }
+
+
   return (
 <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/signup" element={<SignUp />} />
+        <Route path="/" element={<Home/>} />
+        <Route path="/signup" element={<SignUp/>}  />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/carousal2" element={<Carousal2 />} />

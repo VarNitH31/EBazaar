@@ -26,26 +26,27 @@ const pages = [
 
 ];
 
-const NavBar = (isLogged,updateLogged) => {
-	console.log({isLogged});
-	const [log, setlog] = useState("Login")
-	const handleLogClick=()=>{
-		if({isLogged}){
-			setlog("Logout");
-		}
-		else{
-			setlog("Login");
-		}
+const NavBar = ({isLogged,updateLogged}) => {
+	const navigate=useNavigate();
+	const [log, setLog] = useState(isLogged?"logout":"login");
+
+	const handleLogClick = (e) => {
+        e.preventDefault();
+        if (!isLogged) {
+            updateLogged(true);
+            navigate("/signup");
+            setLog("Logout");
+        } else {
+            updateLogged(false);
+            setLog("Login");
+        }
 	}
-
-
-
 	const [searchResults, setSearchResults] = useState([]);
 
 	const handleSearch = (e) => {
 		const query = e.target.value.toLowerCase();
 		if (query.trim() === '') {
-			setSearchResults([]); // Clear search results when the search bar is empty
+			setSearchResults([]);
 		} else {
 			const filteredPages = pages.filter(page => page.name.toLowerCase().includes(query));
 			setSearchResults(filteredPages);
@@ -86,9 +87,9 @@ const NavBar = (isLogged,updateLogged) => {
 					<div>
 						<Link to="/contact">Contact</Link>
 					</div>
-					<Link to="/signup" className="btnlogin-popup" onClick={handleLogClick}   >
-						{log}
-					</Link>
+					<span className="btnlogin-popup" onClick={handleLogClick}   >
+					<a href="">{log}</a>	
+					</span>
 					<div className="iconcart">
 						<Link to="/cart">
 							<ion-icon name="cart-outline"></ion-icon>

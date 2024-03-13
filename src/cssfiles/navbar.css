@@ -58,15 +58,9 @@ html{
     transition: transform .5s;
 }
 
-
 .navigation a:hover::after{
     transform: scaleX(1);
 }
-/* .navigation a:last-child:hover::after{
-    transform: scaleX(0);
-} */
-
-
 
 .navigation .btnlogin-popup {
     background:transparent;
@@ -78,8 +72,6 @@ html{
     color:white;
     font-weight:500;
     transition: .5s;
-
-
 }
 
 .logo{

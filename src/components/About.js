@@ -6,7 +6,7 @@ function About() {
   return (
     <div>
         <NavBar/>
-      <div class="aboutbod">
+      <div class="aboutbod">    
     <header>
         <h1>About Us </h1>
     </header>

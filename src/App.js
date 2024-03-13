@@ -51,6 +51,14 @@ function App() {
    
   const [cart, setCart] = useState([]);
 
+
+  const [isLogged, setIsLogged] = useState(false);
+  const updateLogged = (status) => {
+  setIsLogged(status);
+};
+
+
+
   const addToCart = (productId) => {
     window.alert('Product added to cart');
     let positionThisProductInCart = cart.findIndex((value) => value.product_id === productId);
@@ -69,17 +77,10 @@ function App() {
     setCart(newCart);
   };
 
-  const [isLogged, setIsLogged] = useState(0);
-
-  const updateLogged=(item)=>{
-    setIsLogged(item);
-  }
-
-
   return (
 <Router>
       <Routes>
-        <Route path="/" element={<Home/>} />
+        <Route path="/" element={<Home  isLogged={isLogged} updateLogged={updateLogged}  />} />
         <Route path="/signup" element={<SignUp/>}  />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />

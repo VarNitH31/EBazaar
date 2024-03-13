@@ -6,6 +6,7 @@ import ReCAPTCHA from 'react-google-recaptcha';
 
 
 
+
 const SignUp = () => {
     const navigate = useNavigate();
     
@@ -79,7 +80,6 @@ const SignUp = () => {
           console.log(loginresponse);
         if (loginresponse.value) {
           console.log("successfully verified");
-
           navigate("/");
 
         }
@@ -89,7 +89,7 @@ const SignUp = () => {
    
       
     } catch (error) {
-      console.error('Error logging in reaact :', error);
+      console.error('Error logging in react :', error);
     }
   };
 

@@ -30,10 +30,13 @@ const NavBar = ({isLogged,updateLogged}) => {
 	const navigate=useNavigate();
 	const [log, setLog] = useState(isLogged?"logout":"login");
 
+	const changeLog=()=>{
+		updateLogged(!isLogged);
+	}
 	const handleLogClick = (e) => {
         e.preventDefault();
         if (!isLogged) {
-            updateLogged(true);
+            changeLog();
             navigate("/signup");
             setLog("Logout");
         } else {
@@ -95,6 +98,7 @@ const NavBar = ({isLogged,updateLogged}) => {
 							<ion-icon name="cart-outline"></ion-icon>
 						</Link>
 					</div>
+
 				</nav>
 			</div>
 		</div>

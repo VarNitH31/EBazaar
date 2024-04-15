@@ -58,7 +58,6 @@ function App() {
 };
 
 
-
   const addToCart = (productId) => {
     window.alert('Product added to cart');
     let positionThisProductInCart = cart.findIndex((value) => value.product_id === productId);

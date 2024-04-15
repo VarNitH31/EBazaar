@@ -124,9 +124,9 @@ const Carousal2=()=> {
        
     <Link to="/iphone14">
      <div className="product">
-         <img src=" https://m.media-amazon.com/images/I/71ZDY57yTQL._AC_UL480_FMwebp_QL65_.jpg" alt=""/>
-         <span className="name">Iphone 14 pro</span>
-         <span className="price">Rs1,29,999</span>
+         <img src=" https://m.media-amazon.com/images/I/41O1C449O1L._SX300_SY300_QL70_FMwebp_.jpg" alt=""/>
+         <span className="name">Samsung Galaxy S21 FE 5G</span>
+         <span className="price">Rs30,990</span>
         </div>
     </Link>
     <Link to="/oneplus11r">
@@ -135,19 +135,19 @@ const Carousal2=()=> {
         <span className="price">Rs39,999</span></div>
     </Link>
      <Link to="/galaxyZfold">
-     <div className="product"> <img src="https://m.media-amazon.com/images/I/714QNdK8BWL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-        <span className="name">Galaxy Z Fold 4</span>
-        <span className="price">Rs1,29,999</span></div>
+     <div className="product"> <img src="https://m.media-amazon.com/images/I/81xJ80yRRzL._SX569_.jpg" alt=""/>
+        <span className="name">Samsung Galaxy M04</span>
+        <span className="price">Rs9,990</span></div>
     </Link>
      <Link to="/asuszephurs">
-     <div className="product"> <img src="https://m.media-amazon.com/images/I/81m-xYfxznL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-        <span className="name">ASUS Zephyrus G14</span>
-        <span className="price">Rs1,49,999</span></div>
+     <div className="product"> <img src="https://m.media-amazon.com/images/I/81l6dhsPWHL._SX679_.jpg" alt=""/>
+        <span className="name">HP [Smartchoice] 14s</span>
+        <span className="price">32,990</span></div>
     </Link>
  <Link to="/PavillionX360">
-     <div className="product"> <img src="https://m.media-amazon.com/images/I/61yI6BW+wbL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-        <span className="name">Pavillion x360</span>
-        <span className="price">Rs57,900</span></div>
+     <div className="product"> <img src="https://m.media-amazon.com/images/I/41Rkxw78fIL._SX300_SY300_QL70_FMwebp_.jpg"  alt=""/>
+        <span className="name">Samsung Galaxy M13</span>
+        <span className="price">Rs10,999</span></div>
     </Link>
  <Link to="/dellalienware">
      <div className="product"> <img src="https://m.media-amazon.com/images/I/51dooiy0IvL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
@@ -155,9 +155,9 @@ const Carousal2=()=> {
         <span className="price">Rs2,49,999</span></div>
     </Link>
  <Link to="/macbook">
-     <div className="product"> <img src="https://m.media-amazon.com/images/I/71f5Eu5lJSL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-        <span className="name">Macbook air M2</span>
-        <span className="price">Rs1,14,999</span></div>
+     <div className="product"> <img src="https://m.media-amazon.com/images/I/61WY0CYG09L._SX679_.jpg" alt=""/>
+        <span className="name">HP Chromebook C640</span>
+        <span className="price">Rs17,990</span></div>
     </Link>
  <Link to="/boatheadphones">
      <div className="product"> <img src="https://m.media-amazon.com/images/I/51xxA+6E+xL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
@@ -165,9 +165,9 @@ const Carousal2=()=> {
         <span className="price">Rs1,599</span></div>
     </Link>
  <Link to="/zebronics">
-     <div className="product"> <img src="https://m.media-amazon.com/images/I/61smYWXWx9L._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-        <span className="name">Zebronics Thunder</span>
-        <span className="price">Rs799</span></div>
+     <div className="product"> <img src="https://m.media-amazon.com/images/I/71PSiezUjIL._SL1500_.jpg" alt=""/>
+        <span className="name">HP Laptop 15</span>
+        <span className="price">Rs62,999</span></div>
     </Link>
  <Link to="/noise">
      <div className="product"> <img src="https://m.media-amazon.com/images/I/51apXDsv2CL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>

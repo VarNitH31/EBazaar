@@ -4,7 +4,7 @@ import Footer from '../Footer'
 
 
 
-function Asusrog({ addToCart }) {
+function Asuszephurs({ addToCart }) {
   
   return (
     <div className='prodbody'>
@@ -13,7 +13,7 @@ function Asusrog({ addToCart }) {
           <div className="prodrow">
             <div className="prodcol-2">
               <div className="prodimg">
-                <img src="https://m.media-amazon.com/images/I/71m7XVxRD-L._AC_UY327_FMwebp_QL65_.jpg" alt='' />
+                <img src="https://m.media-amazon.com/images/I/81m-xYfxznL._AC_UY327_FMwebp_QL65_.jpg" alt='' />
               </div>
             </div>
             <div className="prodtext">
@@ -21,14 +21,13 @@ function Asusrog({ addToCart }) {
               <br />
               <br />
               <h3>
-                ASUS Rog Strix G15, AMD Ryzen 7 6800H, (Include - Rog Impact Mouse & Mat), 15.6"(39.62 Cm) Fhd
-                144Hz, 4Gb RTX 3050 Gpu, Gaming Laptop (16Gb/1Tb Ssd/Win11/Office 21/2.1 Kg),G513Rc-Hn085Ws
+              ASUS ROG Zephyrus G14 (2022), 14.0-inch (35.56 cm) FHD+ 16:10 144Hz/3ms, AMD Ryzen 9 6900HS, 8GB RX 6700S Graphics, Gaming Laptop (16GB/1TB SSD/Windows 11/Office 2021/Gray/1.65 Kg), GA402RJZ-L4136WS
               </h3>
               <br />
-              <h4> Rs; 96,990</h4>
+              <h4> Rs 1,49,999</h4>
               <br />
               <input type="number" value="1" />
-              <button id="addtocart" onClick={() => addToCart(13)}>
+              <button id="addtocart" onClick={() => addToCart(4)}>
                 ADD TO CART
               </button>
               <br />
@@ -38,15 +37,15 @@ function Asusrog({ addToCart }) {
               <p>
                 <b>Brand</b>- ASUS
                 <br />
-                <b>Model Name</b> - ROG Strix G 15
+                <b>Model Name</b>- ROG Zephyrus G14 (2022)
                 <br />
-                <b>Screen Size</b>- 15.6 inches
+                <b>Screen Size</b>- 35.56 Centimetres
                 <br />
                 <b>Colour</b>- Eclipse Gray
                 <br />
                 <b>Hard Disk Size</b>- 1 TB
                 <br />
-                <b>OS</b>- Windows 11
+                <b>OS</b>- Windows 11 Home
               </p>
             </div>
           </div>
@@ -56,4 +55,4 @@ function Asusrog({ addToCart }) {
   )
 }
 
-export default Asusrog
+export default Asuszephurs

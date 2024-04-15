@@ -20,7 +20,7 @@ function Iphone15({ addToCart }) {
                 <p>Laptops/Electronics</p><br /><br />
                 <h3>Apple iPhone 15 (128 GB) - Gold
                 </h3><br />
-                <h4>&#8377 72,990</h4><br />
+                <h4>Rs 72,990</h4><br />
                 <input type="number" value="1"/>
                 <button id="addtocart" onClick={() => addToCart(13)}>
                 ADD TO CART

@@ -11,7 +11,7 @@ function Boat() {
         <div className="compprodcontainer">
                 <img src="https://m.media-amazon.com/images/I/315vj6oj-FL._SX300_SY300_QL70_FMwebp_.jpg" alt=""/>
                 <div className="content">
-                       <Link to="/boatRockerz450"> <h3 id="discription">boAt Rockerz 450 Bluetooth On Ear Headphones with Mic, Upto 15 Hours Playback, 40MM Drivers, Padded Ear Cushions, Integrated Controls and Dual Modes(Luscious Black)</h3></Link>
+                       <Link to="/boatrockerz450"> <h3 id="discription">boAt Rockerz 450 Bluetooth On Ear Headphones with Mic, Upto 15 Hours Playback, 40MM Drivers, Padded Ear Cushions, Integrated Controls and Dual Modes(Luscious Black)</h3></Link>
                         <p>100+ brought in past month</p>
                         <h4>Deal of the Day</h4>
                         <p className="price">Rs <strong>1,599</strong>  <sub>MRP <s>3,990</s> </sub></p>

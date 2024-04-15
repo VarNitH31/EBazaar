@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name":"Iphone 14",
+        "name":"Iphone 14 Pro",
         "price": 129999,
         "image": "https://m.media-amazon.com/images/I/71ZDY57yTQL._AC_UL480_FMwebp_QL65_.jpg"
     },
@@ -88,5 +88,11 @@
         "name":"ASUS Vivobook 16X (2022)",
         "price":59999,
         "image": "https://m.media-amazon.com/images/I/71O7BvBJc8L._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+        "id":16,
+        "name":"Dell 14",
+        "price": 39990,
+        "image": "https://m.media-amazon.com/images/I/617yvpfxOpL._AC_UY327_FMwebp_QL65_.jpg"
     }
 ]

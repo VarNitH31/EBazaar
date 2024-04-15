@@ -19,7 +19,7 @@ function Pebblecosmos({ addToCart }) {
             <div class="prodtext">
                 <p>Laptops/Electronics</p><br /><br />
                 <h3>Pebble Cosmos Prime Bluetooth Calling Smart Watch,Largest 1.91" Bezel-less Edge-to-Edge Display,600 Nits br /ightness,Sleek Metallic Body, Wireless Charging, Health Suite(Moon light Blue)</h3><br />
-                <h4>&#8377 899</h4><br />
+                <h4>Rs 899</h4><br />
                 <input type="number" value="1" />
               <button id="addtocart" onClick={() => addToCart(13)}>
                 ADD TO CART

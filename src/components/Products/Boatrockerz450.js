@@ -4,7 +4,7 @@ import Footer from '../Footer'
 import { Link } from 'react-router-dom';
 
 
-function Rockerz450({ addToCart }) {
+function Boatrockerz450({ addToCart }) {
   
   return (
     <div className='prodbody'>
@@ -19,9 +19,9 @@ function Rockerz450({ addToCart }) {
             <div className="prodtext">
                 <p>Laptops/Electronics</p><br /><br />
                 <h3>boAt Rockerz 450 Bluetooth On Ear Headphones with Mic, Upto 15 Hours Playback, 40MM Drivers, Padded Ear Cushions, Integrated Controls and Dual Modes(Luscious Black)</h3><br />
-                <h4>&#8377 1,599</h4><br />
+                <h4>Rs 1,599</h4><br />
                 <input type="number" value="1" />
-              <button id="addtocart" onClick={() => addToCart(13)}>
+              <button id="addtocart" onClick={() => addToCart(8)}>
                 ADD TO CART
               </button>
                
@@ -35,4 +35,4 @@ function Rockerz450({ addToCart }) {
   )
 }
 
-export default Rockerz450
+export default Boatrockerz450

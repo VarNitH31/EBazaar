@@ -3,8 +3,6 @@ import { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import SignUp from './components/SignUp';
-import Asustuf from './components/Products/Asustuf';
-import Asusrog from './components/Products/Asusrog';
 import Asus from './components/companies/Asus';
 import './index.css';
 import Dell from './components/companies/Dell';
@@ -31,6 +29,8 @@ import About from './components/About';
 import Contact from './components/Contact';
 
 
+import Asustuf from './components/Products/Asustuf';
+import Asusrog from './components/Products/Asusrog';
 import Pavillionx360 from './components/Products/Pavilionx360';
 import NoiseVs104 from './components/Products/NoiseVs104';
 import Macpro from './components/Products/Macpro';
@@ -41,11 +41,14 @@ import Dell14 from './components/Products/Dell14';
 import SamsungZ from './components/Products/SamsungZ';
 import Oneplus11r from './components/Products/Oneplus11r';
 import Pebblecosmos from './components/Products/Pebblecosmos';
-import Zebronicthunder from './components/Products/Zebronicthunder.JS';
 import Iphone14 from './components/Products/Iphone14';
-import Rockerz450 from './components/Products/Rockerz450';
 import Iphone14pro from './components/Products/Iphone14pro';
 import Carousal2 from './components/Carousal2';
+import Asuszephurs from './components/Products/Asuszephurs';
+import Asusvivo from './components/Products/Asusvivo';
+import Dellalienware from './components/Products/Dellalienware';
+import Boatrockerz450 from './components/Products/Boatrockerz450';
+import Zebronicthunder from './components/Products/Zebronicthunder';
 
 function App() {
    
@@ -114,6 +117,8 @@ function App() {
 
         <Route path='/asustuf' element={<Asustuf addToCart={addToCart}/>}/>
         <Route path='/asusrog' element={<Asusrog addToCart={addToCart}/>}/>
+        <Route path='/asuszephurs' element={<Asuszephurs addToCart={addToCart}/>}/>
+        <Route path='/asusvivo' element={<Asusvivo addToCart={addToCart}/>}/>
 
         <Route path='/samsungz' element={<SamsungZ addToCart={addToCart}/>}/>
 
@@ -128,6 +133,7 @@ function App() {
 
         <Route path='/dellg15' element={<Dellg15 addToCart={addToCart}/>}/>
         <Route path='/dell14' element={<Dell14 addToCart={addToCart}/>}/>
+        <Route path='/dellalienware' element={<Dellalienware addToCart={addToCart}/>}/>
 
         <Route path='/oneplus11r' element={<Oneplus11r addToCart={addToCart}/>}/>
 
@@ -138,7 +144,7 @@ function App() {
         <Route path='/iphone14' element={<Iphone14 addToCart={addToCart}/>}/>
         <Route path='/i14pro' element={<Iphone14pro addToCart={addToCart}/>}/>
 
-        <Route path='/rockers450' element={<Rockerz450 addToCart={addToCart}/>}/>
+        <Route path='/boatrockerz450' element={<Boatrockerz450 addToCart={addToCart}/>}/>
       </Routes>
     </Router>
   );

@@ -4,7 +4,7 @@ import Footer from '../Footer'
 
 
 
-function Asusrog({ addToCart }) {
+function Asusvivo({ addToCart }) {
   
   return (
     <div className='prodbody'>
@@ -13,7 +13,7 @@ function Asusrog({ addToCart }) {
           <div className="prodrow">
             <div className="prodcol-2">
               <div className="prodimg">
-                <img src="https://m.media-amazon.com/images/I/71m7XVxRD-L._AC_UY327_FMwebp_QL65_.jpg" alt='' />
+                <img src="https://m.media-amazon.com/images/I/71O7BvBJc8L._AC_UY327_FMwebp_QL65_.jpg" alt='' />
               </div>
             </div>
             <div className="prodtext">
@@ -21,14 +21,13 @@ function Asusrog({ addToCart }) {
               <br />
               <br />
               <h3>
-                ASUS Rog Strix G15, AMD Ryzen 7 6800H, (Include - Rog Impact Mouse & Mat), 15.6"(39.62 Cm) Fhd
-                144Hz, 4Gb RTX 3050 Gpu, Gaming Laptop (16Gb/1Tb Ssd/Win11/Office 21/2.1 Kg),G513Rc-Hn085Ws
+              ASUS Vivobook 16X, AMD Ryzen 7 5800HS, 16" (40.64 cm) WUXGA, Thin & Light Laptop (16GB/512GB SSD/Integrated Graphics/Windows 11/Office 2021/Backlit/Fingerprint/Silver/1.88 kg), M1603QA-MB742WS
               </h3>
               <br />
-              <h4> Rs; 96,990</h4>
+              <h4> Rs 59,999</h4>
               <br />
               <input type="number" value="1" />
-              <button id="addtocart" onClick={() => addToCart(13)}>
+              <button id="addtocart" onClick={() => addToCart(15)}>
                 ADD TO CART
               </button>
               <br />
@@ -38,15 +37,15 @@ function Asusrog({ addToCart }) {
               <p>
                 <b>Brand</b>- ASUS
                 <br />
-                <b>Model Name</b> - ROG Strix G 15
+                <b>Model Name</b>- Vivobook 16X
                 <br />
-                <b>Screen Size</b>- 15.6 inches
+                <b>Screen Size</b>- 16 Inches
                 <br />
-                <b>Colour</b>- Eclipse Gray
+                <b>Colour</b>- 	Transparent Silver
                 <br />
-                <b>Hard Disk Size</b>- 1 TB
+                <b>Hard Disk Size</b>- 5122 GB
                 <br />
-                <b>OS</b>- Windows 11
+                <b>OS</b>- Windows 11 Home
               </p>
             </div>
           </div>
@@ -56,4 +55,4 @@ function Asusrog({ addToCart }) {
   )
 }
 
-export default Asusrog
+export default Asusvivo

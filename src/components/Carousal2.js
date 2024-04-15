@@ -72,7 +72,7 @@ const Carousal2=()=> {
                 <span className="name">Macbook air M2</span>
                 <span className="price">Rs1,14,999</span></div>
             </Link>
-         <Link to="/rockers450">
+         <Link to="/boatrockerz450">
              <div className="product"> <img src="https://m.media-amazon.com/images/I/51xxA+6E+xL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
                 <span className="name">Boat rockerz 450</span>
                 <span className="price">Rs1,599</span></div>
@@ -130,9 +130,9 @@ const Carousal2=()=> {
         </div>
     </Link>
     <Link to="/oneplus11r">
-    <div className="product"> <img src="https://m.media-amazon.com/images/I/613SAOPmLeL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-        <span className="name">Oneplus 11R 5G</span>
-        <span className="price">Rs39,999</span></div>
+    <div className="product"> <img src="https://m.media-amazon.com/images/I/412CKVTe8dL._SY445_SX342_QL70_FMwebp_.jpg" alt=""/>
+        <span className="name">Apple iPhone 15 Pro </span>
+        <span className="price">1,40,990</span></div>
     </Link>
      <Link to="/galaxyZfold">
      <div className="product"> <img src="https://m.media-amazon.com/images/I/81xJ80yRRzL._SX569_.jpg" alt=""/>
@@ -142,7 +142,7 @@ const Carousal2=()=> {
      <Link to="/asuszephurs">
      <div className="product"> <img src="https://m.media-amazon.com/images/I/81l6dhsPWHL._SX679_.jpg" alt=""/>
         <span className="name">HP [Smartchoice] 14s</span>
-        <span className="price">32,990</span></div>
+        <span className="price">Rs32,990</span></div>
     </Link>
  <Link to="/PavillionX360">
      <div className="product"> <img src="https://m.media-amazon.com/images/I/41Rkxw78fIL._SX300_SY300_QL70_FMwebp_.jpg"  alt=""/>
@@ -150,9 +150,9 @@ const Carousal2=()=> {
         <span className="price">Rs10,999</span></div>
     </Link>
  <Link to="/dellalienware">
-     <div className="product"> <img src="https://m.media-amazon.com/images/I/51dooiy0IvL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-        <span className="name">Dell Alienware M15</span>
-        <span className="price">Rs2,49,999</span></div>
+     <div className="product"> <img src="https://m.media-amazon.com/images/I/71Um88uP9NL._SY450_.jpg" alt=""/>
+        <span className="name">Pebble Trio 1.96"</span>
+        <span className="price">Rs2,990</span></div>
     </Link>
  <Link to="/macbook">
      <div className="product"> <img src="https://m.media-amazon.com/images/I/61WY0CYG09L._SX679_.jpg" alt=""/>
@@ -160,9 +160,9 @@ const Carousal2=()=> {
         <span className="price">Rs17,990</span></div>
     </Link>
  <Link to="/boatheadphones">
-     <div className="product"> <img src="https://m.media-amazon.com/images/I/51xxA+6E+xL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-        <span className="name">Boat rockerz 450</span>
-        <span className="price">Rs1,599</span></div>
+     <div className="product"> <img src="https://m.media-amazon.com/images/I/61Yrnp6VyKL._SX679_.jpg"  alt=""/>
+        <span className="name">pTron Reflect Pro Plus</span>
+        <span className="price">Rs1,990</span></div>
     </Link>
  <Link to="/zebronics">
      <div className="product"> <img src="https://m.media-amazon.com/images/I/71PSiezUjIL._SL1500_.jpg" alt=""/>
@@ -170,39 +170,39 @@ const Carousal2=()=> {
         <span className="price">Rs62,999</span></div>
     </Link>
  <Link to="/noise">
-     <div className="product"> <img src="https://m.media-amazon.com/images/I/51apXDsv2CL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-        <span className="name">Noise Buds VS104</span>
-        <span className="price">Rs1,799</span></div>
+     <div className="product"> <img src="https://m.media-amazon.com/images/I/51NB4TvxmpL._SY450_.jpg" alt=""/>
+        <span className="name">Fireboltt Fire Pods Rigel </span>
+        <span className="price">Rs1,500</span></div>
     </Link>
  <Link to="/pebble">
-     <div className="product"> <img src="https://m.media-amazon.com/images/I/61Jayni-kPL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-        <span className="name">Pebble Cosmos prime</span>
-        <span className="price">Rs3,899</span></div>
+     <div className="product"> <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dwe200054d/images/Fastrack/Catalog/38094PP01_2.jpg?sw=800&sh=800" alt=""/>
+        <span className="name">Fastrack Invoke Pro</span>
+        <span className="price">Rs3,990</span></div>
     </Link>
  <Link to="/fastrack">
-     <div className="product"> <img src="https://m.media-amazon.com/images/I/613-tICaGQL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-        <span className="name">Fastrack FS1 pro</span>
-        <span className="price">Rs2,799</span></div>
+     <div className="product"> <img src="https://m.media-amazon.com/images/I/71p1qpkQy4L._SY450_.jpg" alt=""/>
+        <span className="name">ZEBRONICS Duke</span>
+        <span className="price">Rs1,990</span></div>
     </Link>
     <Link to="/zebronics">
-        <div className="product"> <img src="https://m.media-amazon.com/images/I/61smYWXWx9L._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-           <span className="name">Zebronics Thunder</span>
-           <span className="price">Rs799</span></div>
+        <div className="product"> <img src="https://m.media-amazon.com/images/I/61WFLydWqpL._SX522_.jpg" alt=""/>
+           <span className="name">boAt Rockerz 551ANC</span>
+           <span className="price">Rs2,490</span></div>
        </Link>
     <Link to="/noise">
-        <div className="product"> <img src="https://m.media-amazon.com/images/I/51apXDsv2CL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-           <span className="name">Noise Buds VS104</span>
-           <span className="price">Rs1,799</span></div>
+        <div className="product"> <img src="https://m.media-amazon.com/images/I/71NCWaRjkPL._SY450_.jpg" alt=""/>
+           <span className="name">Boult Audio Z25</span>
+           <span className="price">Rs990</span></div>
        </Link>
     <Link to="/pebble">
-        <div className="product"> <img src="https://m.media-amazon.com/images/I/61Jayni-kPL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-           <span className="name">Pebble Cosmos prime</span>
-           <span className="price">Rs3,899</span></div>
+        <div className="product"> <img src="https://m.media-amazon.com/images/I/61LB+d0vheL._SX679_.jpg" alt=""/>
+           <span className="name">OnePlus Nord CE 3 Lite 5G</span>
+           <span className="price">Rs19,990</span></div>
        </Link>
     <Link to="/fastrack">
-        <div className="product"> <img src="https://m.media-amazon.com/images/I/613-tICaGQL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-           <span className="name">Fastrack FS1 pro</span>
-           <span className="price">Rs2,799</span></div>
+        <div className="product"> <img src="https://m.media-amazon.com/images/I/618d5bS2lUL._SX679_.jpg" alt=""/>
+           <span className="name">Apple 2023 MacBook Pro </span>
+           <span className="price">Rs3,69,990</span></div>
        </Link>
     </div>
     </div>

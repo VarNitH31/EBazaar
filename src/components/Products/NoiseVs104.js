@@ -24,7 +24,6 @@ function NoiseVs104({ addToCart }) {
                 <button id="addtocart" onClick={() => addToCart(10)}>
                 ADD TO CART
               </button>
-                <a href="" class="btn">ADD TO CART</a><br /><br />
                 <h5>Product details</h5><br />
                 <p><b>Brand</b>- Noise<br /><b>Model Name</b> - Buds VS104 Max<br /><b>Colour</b>- Jet Black<br />
                 <b>Form Factor</b>- IN Ear<br /><b>Connectivity Technology</b>- Bluetooth 4.2</p>

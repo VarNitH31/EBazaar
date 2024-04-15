@@ -22,7 +22,7 @@ function Oneplus11r({ addToCart }) {
                 </h3><br />
                 <h4>Rs 39,999</h4><br />
                 <input type="number" value="1" />
-                <button id="addtocart" onClick={() => addToCart(13)}>
+                <button id="addtocart" onClick={() => addToCart(2)}>
                 ADD TO CART
               </button>
            

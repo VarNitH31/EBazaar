@@ -18,15 +18,16 @@ function Zebronicthunder({ addToCart }) {
             </div>
             <div class="prodtext">
                 <p>Laptops/Electronics</p><br /><br />
-                <h3>ZEbr /ONICS Thunder 60 hrs Playback time Bluetooth Wireless Headphone with FM, mSD, Playback with Mic (Sea Green)</h3><br />
-                <h4>&#8377 799</h4><br />
+                <h3>ZEBRONICS Thunder 60 hrs Playback time Bluetooth Wireless Headphone with FM, mSD, Playback with Mic (Sea Green)</h3><br />
+                <h4>Rs 799</h4><br />
                 <input type="number" value="1" />
-              <button id="addtocart" onClick={() => addToCart(13)}>
+              <button id="addtocart" onClick={() => addToCart(9)}>
                 ADD TO CART
               </button>
            
                 <h5>Product details</h5><br />
-                <p><b>br /and</b>- ZEbr /ONICS<br /><b>Model Name</b> - ZEB-THUNDER<br /><b>Colour</b>- Sea Green<br /><b>Form Factor</b>- Over Ear<br /><b>Connectivity Technology</b>- Bluetooth 4.2</p>
+                <p><b>Brand</b>- ZEBRONICS<br /><b>Model Name</b> - ZEB-THUNDER ( SEA GREEN)<br /><b>Colour</b>- 	Sea Green<br />
+                <b>Form Factor</b>- Over Ear<br /><b>Connectivity Technology</b>- Bluetooth 5.3</p>
             </div>
         </div>
     </div>

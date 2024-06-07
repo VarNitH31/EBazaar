@@ -5,6 +5,9 @@ const cors = require('cors');
 const User = require('./models/userSchema'); 
 const Contact = require('./models/contactSchema');
 const Address=require('./models/addressSchema');
+const Product=require('./models/productSchema');
+
+
 
 
 const app = express();
@@ -13,12 +16,13 @@ const port = process.env.PORT || 3001;
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://varnith:Varnith%40123@ecommerce.0hrtfgs.mongodb.net/?retryWrites=true&w=majority&appName=Ecommerce/UserData', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+mongoose.connect('mongodb://localhost:27017/Transaction');
 
 // Sign up route
+
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + '/public/index.html')
+})
 
 app.post('/api/address', async (req,res)=>{
   
@@ -44,7 +48,16 @@ app.post('/api/address', async (req,res)=>{
 })
 
 
-
+app.get('/api/products',async(req,res)=>{
+  try {
+    const products=await Product.find();
+    res.json(products)
+ 
+  } catch (error) {
+    console.log(error);
+    console.log("error in fetching product data");
+  }
+})
 
 app.post('/api/contact',async (req,res)=>{
  try{

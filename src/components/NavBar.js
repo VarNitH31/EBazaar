@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
 import styles from "../cssfiles/navbar.css";
 import { useState} from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { LoginContext } from "../context/context";
 
 
 const pages = [
@@ -26,12 +27,13 @@ const pages = [
 
 ];
 
-const NavBar = ({isLogged,updateLogged}) => {
+const NavBar = () => {
+	const { isLogged, setIsLogged } = useContext(LoginContext);
 	const navigate=useNavigate();
 	const [log, setLog] = useState(isLogged?"logout":"login");
 
 	const changeLog=()=>{
-		updateLogged(!isLogged);
+		setIsLogged(!isLogged);
 	}
 	const handleLogClick = (e) => {
         e.preventDefault();
@@ -40,7 +42,7 @@ const NavBar = ({isLogged,updateLogged}) => {
             navigate("/signup");
             setLog("Logout");
         } else {
-            updateLogged(false);
+           changeLog();
             setLog("Login");
         }
 	}

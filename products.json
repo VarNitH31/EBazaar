@@ -1,0 +1,99 @@
+[
+    {
+      "link": "/i14pro",
+      "image_url": "https://m.media-amazon.com/images/I/71ZDY57yTQL._AC_UL480_FMwebp_QL65_.jpg",
+      "name": "Iphone 14 pro",
+      "price": "Rs1,29,999"
+    },
+    {
+      "link": "/oneplus11r",
+      "image_url": "https://m.media-amazon.com/images/I/613SAOPmLeL._AC_UY327_FMwebp_QL65_.jpg",
+      "name": "Oneplus 11R 5G",
+      "price": "Rs39,999"
+    },
+    {
+      "link": "/samsungz",
+      "image_url": "https://m.media-amazon.com/images/I/714QNdK8BWL._AC_UY327_FMwebp_QL65_.jpg",
+      "name": "Galaxy Z Fold 4",
+      "price": "Rs1,29,999"
+    },
+    {
+      "link": "/asuszephurs",
+      "image_url": "https://m.media-amazon.com/images/I/81m-xYfxznL._AC_UY327_FMwebp_QL65_.jpg",
+      "name": "ASUS Zephyrus G14",
+      "price": "Rs1,49,999"
+    },
+    {
+      "link": "/pavillionx360",
+      "image_url": "https://m.media-amazon.com/images/I/61yI6BW+wbL._AC_UY327_FMwebp_QL65_.jpg",
+      "name": "Pavillion x360",
+      "price": "Rs57,900"
+    },
+    {
+      "link": "/dellalienware",
+      "image_url": "https://m.media-amazon.com/images/I/51dooiy0IvL._AC_UY327_FMwebp_QL65_.jpg",
+      "name": "Dell Alienware M15",
+      "price": "Rs2,49,999"
+    },
+    {
+      "link": "/macair",
+      "image_url": "https://m.media-amazon.com/images/I/71f5Eu5lJSL._AC_UY327_FMwebp_QL65_.jpg",
+      "name": "Macbook air M2",
+      "price": "Rs1,14,999"
+    },
+    {
+      "link": "/boatrockerz450",
+      "image_url": "https://m.media-amazon.com/images/I/51xxA+6E+xL._AC_UY327_FMwebp_QL65_.jpg",
+      "name": "Boat rockerz 450",
+      "price": "Rs1,599"
+    },
+    {
+      "link": "/zebronicthunder",
+      "image_url": "https://m.media-amazon.com/images/I/61smYWXWx9L._AC_UY327_FMwebp_QL65_.jpg",
+      "name": "Zebronics Thunder",
+      "price": "Rs799"
+    },
+    {
+      "link": "/noisevs104",
+      "image_url": "https://m.media-amazon.com/images/I/51apXDsv2CL._AC_UY327_FMwebp_QL65_.jpg",
+      "name": "Noise Buds VS104",
+      "price": "Rs1,799"
+    },
+    {
+      "link": "/pebblecosmos",
+      "image_url": "https://m.media-amazon.com/images/I/61Jayni-kPL._AC_UY327_FMwebp_QL65_.jpg",
+      "name": "Pebble Cosmos prime",
+      "price": "Rs3,899"
+    },
+    {
+      "link": "/fastreflex",
+      "image_url": "https://m.media-amazon.com/images/I/613-tICaGQL._AC_UY327_FMwebp_QL65_.jpg",
+      "name": "Fastrack FS1 pro",
+      "price": "Rs2,799"
+    },
+    {
+      "link": "/asusrog",
+      "image_url": "https://m.media-amazon.com/images/I/71m7XVxRD-L._AC_UY327_FMwebp_QL65_.jpg",
+      "name": "ASUS Rog Strix G15",
+      "price": "Rs96,990"
+    },
+    {
+      "link": "/asustuf",
+      "image_url": "https://m.media-amazon.com/images/I/71-Fx3Vfq5L._AC_UY327_FMwebp_QL65_.jpg",
+      "name": "ASUS TUF Gaming F15",
+      "price": "Rs76,990"
+    },
+    {
+      "link": "/asusvivo",
+      "image_url": "https://m.media-amazon.com/images/I/71O7BvBJc8L._AC_UY327_FMwebp_QL65_.jpg",
+      "name": "ASUS Vivobook 16x",
+      "price": "Rs59,999"
+    },
+    {
+      "link": "/dell14",
+      "image_url": "https://m.media-amazon.com/images/I/617yvpfxOpL._AC_UY327_FMwebp_QL65_.jpg",
+      "name": "Dell 14",
+      "price": "Rs39,990"
+    }
+  ]
+  

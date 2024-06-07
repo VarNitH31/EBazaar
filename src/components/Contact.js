@@ -36,7 +36,7 @@ function Contact() {
         message:"",
     })
 
-  
+   window.alert("Your messsage has been recieved.Thankyou for Your response")
    console.log(contactData);
    }
 

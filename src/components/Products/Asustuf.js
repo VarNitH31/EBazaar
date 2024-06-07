@@ -2,9 +2,14 @@ import React from 'react'
 import Footer from '../Footer'
 import NavBar from '../NavBar'
 import '../../cssfiles/productpage.css'
-import { Link } from 'react-router-dom';
+import {  useDispatch } from 'react-redux'
+import { addToCart } from '../../redux/cart/cartSlicer'
 
-function Asustuf({ addToCart }) {
+function Asustuf() {
+    const dispatch=useDispatch();
+    const handleAddToCart=()=>{
+      dispatch(addToCart('14'));
+    }
   return (
     <div className='prodbody'>
     <NavBar/>
@@ -20,7 +25,7 @@ function Asustuf({ addToCart }) {
                 <h3>ASUS TUF Gaming F15, 15.6"(39.62 cms) FHD 144Hz, Intel Core i7-11800H 11th Gen, 4GB NVIDIA GeForce RTX 3050 Ti, Gaming Laptop (16GB/1TB SSD/Win 11/MSO/90WHrs Battery/Black/2.30 Kg), FX506HE-HN385WS</h3><br/>
                 <h4>Rs 79,990</h4><br/>
                 <input type="number" defaultValue="1"/>
-                <button id="addtocart" onClick={() => addToCart(14)}>ADD TO CART</button><br/><br/>
+                <button id="addtocart" onClick={handleAddToCart}>ADD TO CART</button><br/><br/>
                 <h5>Product details</h5><br/>
                 <p><b>Brand</b>- ASUS<br/><b>Model Name</b> - TUF Gaming F 15<br/><b>Screen Size</b>- 15.6 inches<br/><b>Colour</b>- Black<br/><b>Hard Disk Size</b>- 1 TB<br/><b>OS</b>- Windows 11</p>
             </div>

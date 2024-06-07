@@ -1,6 +1,9 @@
 import React from 'react';
 import { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { LoginProvider } from './context/context';
+import { Provider } from 'react-redux';
+import {store} from './redux/store'
 import Home from './components/Home';
 import SignUp from './components/SignUp';
 import Asus from './components/companies/Asus';
@@ -54,13 +57,6 @@ function App() {
    
   const [cart, setCart] = useState([]);
 
-
-  const [isLogged, setIsLogged] = useState(false);
-  const updateLogged = (status) => {
-  setIsLogged(status);
-};
-
-
   const addToCart = (productId) => {
     window.alert('Product added to cart');
     let positionThisProductInCart = cart.findIndex((value) => value.product_id === productId);
@@ -82,7 +78,7 @@ function App() {
   return (
 <Router>
       <Routes>
-        <Route path="/" element={<Home  isLogged={isLogged} updateLogged={updateLogged}  />} />
+        <Route path="/" element={<Home/>} />
         <Route path="/signup" element={<SignUp/>}  />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
@@ -150,4 +146,10 @@ function App() {
   );
 }
 
-export default App;
+export default () => (
+  <Provider store={store}>
+  <LoginProvider>
+    <App />
+  </LoginProvider>
+  </Provider>
+);

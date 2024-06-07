@@ -2,9 +2,30 @@ import React from 'react'
 import { useState , useRef , useEffect} from 'react';
 import '../cssfiles/carousal2.css'
 import { Link } from 'react-router-dom';
+import axios from 'axios';
+
 
 
 const Carousal2=()=> {
+    
+    const [products, setProducts] = useState([]);
+
+    useEffect(()=>{
+            const fetchData=async()=>{
+                try {
+                    console.log("fetching data")
+                    const response=await axios.get('http://localhost:3001/api/products')
+                    setProducts(response.data);
+                    console.log(products);   
+                    console.log(response);   
+                } catch (error) {
+                    console.log(error);
+                    console.log("error in getting the products into the component");
+                }
+            }
+            fetchData();
+    },[])
+
     const carouselSlidesRef = useRef(null);
     const [currentCarouselIndex, setCurrentCarouselIndex] = useState(0);
   
@@ -34,18 +55,18 @@ const Carousal2=()=> {
      
         <div className="carousel-slide">
             <div className="productdisplay">
-               
             <Link to="/i14pro">
-             <div className="product">
+            <div className="product">
                  <img src=" https://m.media-amazon.com/images/I/71ZDY57yTQL._AC_UL480_FMwebp_QL65_.jpg" alt=""/>
                  <span className="name">Iphone 14 pro</span>
                  <span className="price">Rs1,29,999</span>
-                </div>
+            </div>
             </Link>
             <Link to="/oneplus11r">
             <div className="product"> <img src="https://m.media-amazon.com/images/I/613SAOPmLeL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
                 <span className="name">Oneplus 11R 5G</span>
-                <span className="price">Rs39,999</span></div>
+                <span className="price">Rs39,999</span>
+            </div>
             </Link>
              <Link to="/samsungz">
              <div className="product"> <img src="https://m.media-amazon.com/images/I/714QNdK8BWL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
@@ -295,89 +316,15 @@ const Carousal2=()=> {
     </div>
         <div className="carousel-slide">
     <div className="productdisplay">
-       
-    <Link to="/iphone14">
-     <div className="product">
-         <img src=" https://m.media-amazon.com/images/I/71ZDY57yTQL._AC_UL480_FMwebp_QL65_.jpg" alt=""/>
-         <span className="name">Iphone 14 pro</span>
-         <span className="price">Rs1,29,999</span>
-        </div>
-    </Link>
-    <Link to="/oneplus11r">
-    <div className="product"> <img src="https://m.media-amazon.com/images/I/613SAOPmLeL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-        <span className="name">Oneplus 11R 5G</span>
-        <span className="price">Rs39,999</span></div>
-    </Link>
-     <Link to="/galaxyZfold">
-     <div className="product"> <img src="https://m.media-amazon.com/images/I/714QNdK8BWL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-        <span className="name">Galaxy Z Fold 4</span>
-        <span className="price">Rs1,29,999</span></div>
-    </Link>
-     <Link to="/asuszephurs">
-     <div className="product"> <img src="https://m.media-amazon.com/images/I/81m-xYfxznL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-        <span className="name">ASUS Zephyrus G14</span>
-        <span className="price">Rs1,49,999</span></div>
-    </Link>
- <Link to="/PavillionX360">
-     <div className="product"> <img src="https://m.media-amazon.com/images/I/61yI6BW+wbL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-        <span className="name">Pavillion x360</span>
-        <span className="price">Rs57,900</span></div>
-    </Link>
- <Link to="/dellalienware">
-     <div className="product"> <img src="https://m.media-amazon.com/images/I/51dooiy0IvL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-        <span className="name">Dell Alienware M15</span>
-        <span className="price">Rs2,49,999</span></div>
-    </Link>
- <Link to="/macbook">
-     <div className="product"> <img src="https://m.media-amazon.com/images/I/71f5Eu5lJSL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-        <span className="name">Macbook air M2</span>
-        <span className="price">Rs1,14,999</span></div>
-    </Link>
- <Link to="/boatheadphones">
-     <div className="product"> <img src="https://m.media-amazon.com/images/I/51xxA+6E+xL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-        <span className="name">Boat rockerz 450</span>
-        <span className="price">Rs1,599</span></div>
-    </Link>
- <Link to="/zebronics">
-     <div className="product"> <img src="https://m.media-amazon.com/images/I/61smYWXWx9L._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-        <span className="name">Zebronics Thunder</span>
-        <span className="price">Rs799</span></div>
-    </Link>
- <Link to="/noise">
-     <div className="product"> <img src="https://m.media-amazon.com/images/I/51apXDsv2CL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-        <span className="name">Noise Buds VS104</span>
-        <span className="price">Rs1,799</span></div>
-    </Link>
- <Link to="/pebble">
-     <div className="product"> <img src="https://m.media-amazon.com/images/I/61Jayni-kPL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-        <span className="name">Pebble Cosmos prime</span>
-        <span className="price">Rs3,899</span></div>
-    </Link>
- <Link to="/fastrack">
-     <div className="product"> <img src="https://m.media-amazon.com/images/I/613-tICaGQL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-        <span className="name">Fastrack FS1 pro</span>
-        <span className="price">Rs2,799</span></div>
-    </Link>
-    <Link to="/zebronics">
-        <div className="product"> <img src="https://m.media-amazon.com/images/I/61smYWXWx9L._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-           <span className="name">Zebronics Thunder</span>
-           <span className="price">Rs799</span></div>
-       </Link>
-    <Link to="/noise">
-        <div className="product"> <img src="https://m.media-amazon.com/images/I/51apXDsv2CL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-           <span className="name">Noise Buds VS104</span>
-           <span className="price">Rs1,799</span></div>
-       </Link>
-    <Link to="/pebble">
-        <div className="product"> <img src="https://m.media-amazon.com/images/I/61Jayni-kPL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-           <span className="name">Pebble Cosmos prime</span>
-           <span className="price">Rs3,899</span></div>
-       </Link>
-    <Link to="/fastrack">
-        <div className="product"> <img src="https://m.media-amazon.com/images/I/613-tICaGQL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
-           <span className="name">Fastrack FS1 pro</span>
-           <span className="price">Rs2,799</span></div>
-       </Link>
+            {products.map((product)=>(
+                <Link to={product.link}>
+                <div className="product">
+                     <img src={product.image_url} alt=""/>
+                     <span className="name">{product.name}</span>
+                     <span className="price">{product.price}</span>
+                </div>
+                </Link>
+            ))}
     </div>
     </div>
     </div>

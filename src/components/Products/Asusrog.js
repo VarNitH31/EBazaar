@@ -2,10 +2,14 @@ import React from 'react'
 import NavBar from '../NavBar'
 import Footer from '../Footer'
 
+import {  useDispatch } from 'react-redux'
+import { addToCart } from '../../redux/cart/cartSlicer'
 
-
-function Asusrog({ addToCart }) {
-  
+function Asusrog() {
+  const dispatch=useDispatch();
+  const handleAddToCart=()=>{
+    dispatch(addToCart('13'));
+  }
   return (
     <div className='prodbody'>
         <NavBar/>
@@ -28,7 +32,7 @@ function Asusrog({ addToCart }) {
               <h4> Rs; 96,990</h4>
               <br />
               <input type="number" value="1" />
-              <button id="addtocart" onClick={() => addToCart(13)}>
+              <button id="addtocart" onClick={handleAddToCart}>
                 ADD TO CART
               </button>
               <br />

@@ -11,7 +11,7 @@ function Noise() {
         <div className="compprodcontainer">
                 <img src="https://m.media-amazon.com/images/I/51apXDsv2CL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
                 <div className="content">
-                       <Link to="/noiseVs104.html"> <h3 id="discription">Noise Buds VS104 Max Truly Wireless in-Ear Earbuds with ANC(Up to 25dB),Up to 45H Playtime, Quad Mic with ENC, Instacharge(10 min=180 min), 13mm Driver, BT v5.3 (Jet Black)
+                       <Link to="/noiseVs104"> <h3 id="discription">Noise Buds VS104 Max Truly Wireless in-Ear Earbuds with ANC(Up to 25dB),Up to 45H Playtime, Quad Mic with ENC, Instacharge(10 min=180 min), 13mm Driver, BT v5.3 (Jet Black)
                     </h3></Link>
                         <p>100+ brought in past month</p>
                         <h4>Deal of the Day</h4>
@@ -45,7 +45,7 @@ function Noise() {
                        <Link to="/1"> <h3 id="discription">Noise Buds VS402 in-Ear Truly Wireless Earbuds with 50H of Playtime, Low Latency, Quad Mic with ENC, Instacharge(10 min=120 min),10mm Driver, BT v5.3, Breathing LED Lights (Neon White)</h3></Link>
                         <p>13 brought in past month</p>
                         <h4>Deal of the Day</h4>
-                        <p className="price">Rs <strong>990</strong>  <sub>MRP <s>3Noise Buds VS402 in-Ear Truly Wireless Earbuds with 50H of Playtime, Low Latency, Quad Mic with ENC, Instacharge(10 min=120 min),10mm Driver, BT v5.3, Breathing LED Lights (Neon White),990</s> </sub></p>
+                        <p className="price">Rs <strong>990</strong>  <sub>MRP <s>3990</s> </sub></p>
                         <p> <sub>Save extra with no cost EMI</sub></p>
                 </div>
          </div>

@@ -21,12 +21,12 @@ function Pebblecosmos({ addToCart }) {
                 <h3>Pebble Cosmos Prime Bluetooth Calling Smart Watch,Largest 1.91" Bezel-less Edge-to-Edge Display,600 Nits br /ightness,Sleek Metallic Body, Wireless Charging, Health Suite(Moon light Blue)</h3><br />
                 <h4>Rs 899</h4><br />
                 <input type="number" value="1" />
-              <button id="addtocart" onClick={() => addToCart(13)}>
+              <button id="addtocart" onClick={() => addToCart(11)}>
                 ADD TO CART
               </button>
 
                 <h5>Product details</h5><br />
-                <p /><b>br /and</b>- Pebble<br /><b>Model Name</b> - Cosmos Prime<br /><b>Screen Size</b>- 1.9 inches<br /><b>Colour</b>- Moon Light Blue<br /><b>Style</b>- Classic<br />
+                <p /><b>brand</b>- Pebble<br /><b>Model Name</b> - Cosmos Prime<br /><b>Screen Size</b>- 1.9 inches<br /><b>Colour</b>- Moon Light Blue<br /><b>Style</b>- Classic<br />
             </div>
         </div>
     </div>

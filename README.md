@@ -1,1 +1,1 @@
-mongodb+srv://varnith:Varnith%40123@ecommerce.0hrtfgs.mongodb.net/?retryWrites=true&w=majority&appName=Ecommerce/UserData
+
